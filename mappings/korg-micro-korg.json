@@ -1,0 +1,377 @@
+[
+    {
+        "code": "5",
+        "title": "Portamento",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "type": "list",
+        "list": [
+            "0",
+            "17",
+            "33",
+            "49",
+            "65",
+            "81",
+            "97"
+        ],
+        "notes": [
+            "0-15: saw; 16-31: square; 32-47: tri; 48-63: sin; 64-79: vox wave; 80-95: DWGS; 96-111: noise; 112-127: audio in"
+        ],
+        "title": "Wave"
+    },
+    {
+        "code": "14",
+        "title": "Control 1",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "Control 2",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "type": "list",
+        "list": [
+            "0",
+            "44",
+            "87"
+        ],
+        "notes": [
+            "0-42: saw; 43-85: square; 86-127: tri"
+        ],
+        "title": "Wave"
+    },
+    {
+        "code": "82",
+        "type": "list",
+        "list": [
+            "0",
+            "33",
+            "65",
+            "87"
+        ],
+        "notes": [
+            "0-31: off; 32-63: ring; 64-95: sync; 96-127: ring sync"
+        ],
+        "title": "OSC mod"
+    },
+    {
+        "code": "18",
+        "title": "Semitone",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "type": "list",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Tune"
+    },
+    {
+        "code": "18",
+        "title": "Vocoder HPF level",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Vocoder threshold",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "OSC 1 level",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "OSC 2 level",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Vocoder inst level",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "notes": [
+            "0-31: -24LPF; 32-63: -12LPF; 64-95: -12BPF; 96-127: -12HPF"
+        ],
+        "type": "list",
+        "list": [
+            "0",
+            "33",
+            "65",
+            "97"
+        ],
+        "title": "Filter type"
+    },
+    {
+        "code": "83",
+        "notes": [
+            "0-25: 0; 26-51: +1; 52-76: +2; 77-102: -1; 103-127: -2"
+        ],
+        "type": "list",
+        "list": [
+            "0",
+            "27",
+            "53",
+            "78",
+            "104"
+        ],
+        "title": "Vocoder formant shift"
+    },
+    {
+        "code": "74",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Vocoder filter cutoff",
+        "type": "list"
+    },
+    {
+        "code": "71",
+        "title": "Filter resonance",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter EG intensity",
+        "type": "list"
+    },
+    {
+        "code": "79",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Vocoder mod intensity",
+        "type": "list"
+    },
+    {
+        "code": "23",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter EG attack",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Filter EG decay",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Filter EG sustain",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Filter EG release",
+        "type": "list"
+    },
+    {
+        "code": "7",
+        "title": "Amp level",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Panpot",
+        "type": "list"
+    },
+    {
+        "code": "10",
+        "title": "Vocoder direct level",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "type": "bool",
+        "notes": [
+            "0-63: off; 64-127: on"
+        ],
+        "title": "Distortion"
+    },
+    {
+        "code": "73",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Amp EG attack",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Amp EG decay",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "title": "Amp EG sustain",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Amp EG release",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "list": [
+            "0",
+            "33",
+            "65",
+            "97"
+        ],
+        "type": "list",
+        "notes": [
+            "0-31: saw; 32-63: square; 64-95: tri; 96-127: s/h"
+        ],
+        "title": "LFO 1 wave"
+    },
+    {
+        "code": "27",
+        "title": "LFO 1 frequency",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "list": [
+            "0",
+            "33",
+            "65",
+            "97"
+        ],
+        "type": "list",
+        "notes": [
+            "0-31: saw; 32-63: square; 64-95: tri; 96-127: s/h"
+        ],
+        "title": "LFO 2 wave"
+    },
+    {
+        "code": "76",
+        "title": "LFO 2 frequency",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Patch 1 intensity",
+        "type": "list"
+    },
+    {
+        "code": "29",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Patch 2 intensity",
+        "type": "list"
+    },
+    {
+        "code": "30",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Patch 3 intensity",
+        "type": "list"
+    },
+    {
+        "code": "31",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Patch 4 intensity",
+        "type": "list"
+    },
+    {
+        "code": "12",
+        "title": "Mod FX LFO speed",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Mod FX depth",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Delay time",
+        "type": "int"
+    },
+    {
+        "code": "94",
+        "title": "Delay depth",
+        "type": "int"
+    },
+    {
+        "code": "95",
+        "title": "Timbre select",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "type": "bool",
+        "notes": [
+            "0-63: off; 64-127: on"
+        ],
+        "title": "Sync control"
+    }
+]

@@ -1,0 +1,261 @@
+[
+    {
+        "code": "16",
+        "title": "AMP EG ATTACK",
+        "type": "list",
+        "list": [
+            "0",
+            "2"
+        ]
+    },
+    {
+        "code": "17",
+        "title": "AMP EG DECAY",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "AMP EG SUSTAIN",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "AMP EG RELEASE",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "EG ATTACK",
+        "type": "list",
+        "list": [
+            "0",
+            "2"
+        ]
+    },
+    {
+        "code": "21",
+        "title": "EG DECAY",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "EG SUSTAIN",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "EG RELEASE",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "LFO RATE",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "LFO INT",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "VOICE MODE DEPTH",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "DELAY HI PASS CUTOFF",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "DELAY TIME",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "title": "DELAY FEEDBACK",
+        "type": "int"
+    },
+    {
+        "code": "33",
+        "title": "NOISE LEVEL",
+        "type": "int"
+    },
+    {
+        "code": "34",
+        "title": "VCO 1 PITCH",
+        "type": "int"
+    },
+    {
+        "code": "35",
+        "title": "VCO 2 PITCH",
+        "type": "int"
+    },
+    {
+        "code": "36",
+        "title": "VCO 1 SHAPE",
+        "type": "int"
+    },
+    {
+        "code": "37",
+        "title": "VCO 2 SHAPE",
+        "type": "int"
+    },
+    {
+        "code": "39",
+        "title": "VCO 1 LEVEL",
+        "type": "int"
+    },
+    {
+        "code": "40",
+        "title": "VCO 2 LEVEL",
+        "type": "int"
+    },
+    {
+        "code": "41",
+        "title": "VCO 2 CROSS MOD DEPTH",
+        "type": "int"
+    },
+    {
+        "code": "42",
+        "title": "VCO 2 PITCH EG INT",
+        "type": "int"
+    },
+    {
+        "code": "43",
+        "title": "CUTOFF",
+        "type": "list",
+        "list": [
+            "120",
+            "127"
+        ]
+    },
+    {
+        "code": "44",
+        "title": "RESONANCE",
+        "type": "int"
+    },
+    {
+        "code": "45",
+        "title": "CUTOFF EG INT",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "list": [
+            "0",
+            "42",
+            "84",
+            "127"
+        ],
+        "title": "VCO 1 OCTAVE",
+        "type": "list"
+    },
+    {
+        "code": "49",
+        "list": [
+            "0",
+            "42",
+            "84",
+            "127"
+        ],
+        "title": "VCO 2 OCTAVE",
+        "type": "list"
+    },
+    {
+        "code": "50",
+        "list": [
+            "0",
+            "64",
+            "127"
+        ],
+        "title": "VCO 1 WAVE",
+        "type": "list"
+    },
+    {
+        "code": "51",
+        "list": [
+            "0",
+            "64",
+            "127"
+        ],
+        "title": "VCO 2 WAVE",
+        "type": "list"
+    },
+    {
+        "code": "56",
+        "list": [
+            "0",
+            "64",
+            "127"
+        ],
+        "title": "LFO TARGET",
+        "type": "list"
+    },
+    {
+        "code": "57",
+        "list": [
+            "0",
+            "64",
+            "127"
+        ],
+        "title": "LFO EG",
+        "type": "list"
+    },
+    {
+        "code": "58",
+        "list": [
+            "0",
+            "64",
+            "127"
+        ],
+        "title": "LFO WAVE",
+        "type": "list"
+    },
+    {
+        "code": "80",
+        "title": "SYNC",
+        "type": "bool"
+    },
+    {
+        "code": "81",
+        "title": "RING",
+        "type": "bool"
+    },
+    {
+        "code": "82",
+        "list": [
+            "0",
+            "64",
+            "127"
+        ],
+        "title": "CUTOFF VELOCITY",
+        "type": "list"
+    },
+    {
+        "code": "83",
+        "list": [
+            "0",
+            "64",
+            "127"
+        ],
+        "title": "CUTOFF KEYBOARD TRACK",
+        "type": "list"
+    },
+    {
+        "code": "84",
+        "title": "CUTOFF TYPE",
+        "type": "bool"
+    },
+    {
+        "code": "88",
+        "list": [
+            "0",
+            "64",
+            "127"
+        ],
+        "title": "DELAY OUTPUT ROUTING",
+        "type": "list"
+    }
+]

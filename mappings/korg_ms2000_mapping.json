@@ -1,0 +1,299 @@
+[
+    {
+        "code": "77",
+        "title": "OSC 1 wave",
+        "type": "list",
+        "list": [
+            "0",
+            "17",
+            "34",
+            "49",
+            "65",
+            "82",
+            "97"
+        ]
+    },
+    {
+        "code": "14",
+        "title": "OSC 1 control 1",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "OSC 1 control 2",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "title": "OSC 2 wave",
+        "type": "list",
+        "list": [
+            "0",
+            "44",
+            "89"
+        ]
+    },
+    {
+        "code": "82",
+        "title": "OSC 2 modulation",
+        "type": "list",
+        "list": [
+            "0",
+            "33",
+            "65",
+            "97"
+        ]
+    },
+    {
+        "code": "18",
+        "title": "OSC 2 semitone",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "OSC 2 tune",
+        "type": "list",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ]
+    },
+    {
+        "code": "20",
+        "title": "OSC 1 level",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "OSC 2 level",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Filter type",
+        "type": "list",
+        "list": [
+            "0",
+            "33",
+            "65",
+            "97"
+        ]
+    },
+    {
+        "code": "74",
+        "title": "Filter cutoff",
+        "type": "list",
+        "list": [
+            "122",
+            "127"
+        ]
+    },
+    {
+        "code": "71",
+        "title": "Filter resonance",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Filter EG 1 intensity",
+        "type": "list",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ]
+    },
+    {
+        "code": "85",
+        "title": "Filter KBD track",
+        "type": "list",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ]
+    },
+    {
+        "code": "10",
+        "title": "Amp panpot",
+        "type": "list",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ]
+    },
+    {
+        "code": "7",
+        "title": "Amp level",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "Amp EG2/gate",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "Amp distortion",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "EG 1 attack",
+        "type": "list",
+        "list": [
+            "0",
+            "1"
+        ]
+    },
+    {
+        "code": "24",
+        "title": "EG 1 decay",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "EG 1 sustain",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "EG 1 release",
+        "type": "list",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ]
+    },
+    {
+        "code": "73",
+        "title": "EG 2 attack",
+        "type": "list",
+        "list": [
+            "0",
+            "1"
+        ]
+    },
+    {
+        "code": "75",
+        "title": "EG 2 decay",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "title": "EG 2 sustain",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "title": "EG 2 release",
+        "type": "list",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ]
+    },
+    {
+        "code": "87",
+        "title": "LFO1 Wave",
+        "type": "list",
+        "list": [
+            "0",
+            "33",
+            "65",
+            "97"
+        ]
+    },
+    {
+        "code": "27",
+        "title": "LFO1 frequency",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "title": "LFO2 Wave",
+        "type": "list",
+        "list": [
+            "0",
+            "33",
+            "65",
+            "97"
+        ]
+    },
+    {
+        "code": "76",
+        "title": "LFO2 frequency",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "Patch 1 intensity",
+        "type": "list",
+        "list": [
+            "43",
+            "63",
+            "83"
+        ]
+    },
+    {
+        "code": "29",
+        "title": "Patch 2 intensity",
+        "type": "list",
+        "list": [
+            "43",
+            "63",
+            "83"
+        ]
+    },
+    {
+        "code": "30",
+        "title": "Patch 3 intensity",
+        "type": "list",
+        "list": [
+            "43",
+            "63",
+            "83"
+        ]
+    },
+    {
+        "code": "31",
+        "title": "Patch 4 intensity",
+        "type": "list",
+        "list": [
+            "43",
+            "63",
+            "83"
+        ]
+    },
+    {
+        "code": "12",
+        "title": "Mod FX LFO speed",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Mod FX depth",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Delay time",
+        "type": "int"
+    },
+    {
+        "code": "94",
+        "title": "Delay depth",
+        "type": "int"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "code": "44",
+        "title": "Resonance",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "title": "VCO 1 Octave",
+        "type": "list",
+        "list": [
+            "0",
+            "42",
+            "84",
+            "127"
+        ]
+    },
+    {
+        "code": "80",
+        "title": "FX 1 On/Off",
+        "type": "bool"
+    }
+]

@@ -1,0 +1,187 @@
+[
+    {
+        "code": "10",
+        "title": "Pan",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "Select 1",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "Select 2",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "Select 1-2",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Level 1",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Level 2",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Level 1-2",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "EG attack 1",
+        "type": "list"
+    },
+    {
+        "code": "21",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "EG attack 2",
+        "type": "list"
+    },
+    {
+        "code": "22",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "EG attack 1-2",
+        "type": "list"
+    },
+    {
+        "code": "23",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "EG release 1",
+        "type": "list"
+    },
+    {
+        "code": "24",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "EG release 2",
+        "type": "list"
+    },
+    {
+        "code": "25",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "EG release 1-2",
+        "type": "list"
+    },
+    {
+        "code": "26",
+        "title": "Pitch 1",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Pitch 2",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "Pitch 1-2",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Mod amount 1",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "Mod amount 2",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "title": "Mod amount 1-2",
+        "type": "int"
+    },
+    {
+        "code": "46",
+        "title": "Mod rate 1",
+        "type": "int"
+    },
+    {
+        "code": "47",
+        "title": "Mod rate 2",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "title": "Mod rate 1-2",
+        "type": "int"
+    },
+    {
+        "code": "49",
+        "title": "Bit reduction",
+        "type": "int"
+    },
+    {
+        "code": "50",
+        "title": "Fold",
+        "type": "int"
+    },
+    {
+        "code": "51",
+        "title": "Drive",
+        "type": "int"
+    },
+    {
+        "code": "52",
+        "title": "Dry gain",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "Send",
+        "type": "int"
+    },
+    {
+        "code": "116",
+        "title": "Waveguide model",
+        "type": "int"
+    },
+    {
+        "code": "117",
+        "title": "Decay",
+        "type": "int"
+    },
+    {
+        "code": "118",
+        "title": "Body",
+        "type": "int"
+    },
+    {
+        "code": "119",
+        "title": "Tune",
+        "type": "int"
+    }
+]

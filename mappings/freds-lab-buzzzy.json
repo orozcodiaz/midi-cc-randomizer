@@ -1,0 +1,165 @@
+[
+    {
+        "code": "1",
+        "title": "Modwheel",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "Volume",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Pan",
+        "type": "list"
+    },
+    {
+        "code": "12",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Coarse",
+        "type": "list"
+    },
+    {
+        "code": "13",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Fine",
+        "type": "list"
+    },
+    {
+        "code": "16",
+        "title": "Tempo",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Division",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Repeat",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Gate",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "title": "Wave",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Resonance",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "title": "Decay",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Attack",
+        "type": "list"
+    },
+    {
+        "code": "74",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Cutoff",
+        "type": "list"
+    },
+    {
+        "code": "75",
+        "title": "Engine",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Filter mod.",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Space mix",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Delay mix",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "title": "Space model",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "Delay model",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "Filter type",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "title": "Arp. mode",
+        "type": "int"
+    },
+    {
+        "code": "89",
+        "title": "Env. mode",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "title": "Env. loop",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Space decay",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "Space diffuse",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Delay feedback",
+        "type": "int"
+    },
+    {
+        "code": "94",
+        "title": "Delay length",
+        "type": "int"
+    }
+]

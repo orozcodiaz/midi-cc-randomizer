@@ -1,0 +1,102 @@
+[
+    {
+        "code": "40",
+        "title": "Kick level",
+        "type": "int"
+    },
+    {
+        "code": "41",
+        "title": "Snare level",
+        "type": "int"
+    },
+    {
+        "code": "42",
+        "title": "Lo tom level",
+        "type": "int"
+    },
+    {
+        "code": "43",
+        "title": "Hi tom level",
+        "type": "int"
+    },
+    {
+        "code": "44",
+        "title": "Closed hat level",
+        "type": "int"
+    },
+    {
+        "code": "45",
+        "title": "Open hat level",
+        "type": "int"
+    },
+    {
+        "code": "46",
+        "title": "Clap level",
+        "type": "int"
+    },
+    {
+        "code": "47",
+        "title": "Claves level",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "title": "Agogo level",
+        "type": "int"
+    },
+    {
+        "code": "49",
+        "title": "Crash level",
+        "type": "int"
+    },
+    {
+        "code": "50",
+        "title": "Clap PCM speed",
+        "type": "int"
+    },
+    {
+        "code": "51",
+        "title": "Claves PCM speed",
+        "type": "int"
+    },
+    {
+        "code": "52",
+        "title": "Agogo PCM speed",
+        "type": "int"
+    },
+    {
+        "code": "53",
+        "title": "Crash PCM speed",
+        "type": "int"
+    },
+    {
+        "code": "54",
+        "title": "Stutter time",
+        "type": "int"
+    },
+    {
+        "code": "55",
+        "title": "Stutter depth",
+        "type": "int"
+    },
+    {
+        "code": "56",
+        "title": "Tom decay",
+        "type": "int"
+    },
+    {
+        "code": "57",
+        "title": "Closed hat decay",
+        "type": "int"
+    },
+    {
+        "code": "58",
+        "title": "Open hat decay",
+        "type": "int"
+    },
+    {
+        "code": "59",
+        "title": "Hat grain",
+        "type": "int"
+    }
+]

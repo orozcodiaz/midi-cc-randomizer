@@ -1,0 +1,221 @@
+[
+    {
+        "code": "16",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Amp EG attack",
+        "type": "list"
+    },
+    {
+        "code": "17",
+        "title": "Amp EG decay",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Amp EG sustain",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Amp EG release",
+        "type": "list"
+    },
+    {
+        "code": "20",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "EG attack",
+        "type": "list"
+    },
+    {
+        "code": "21",
+        "title": "EG decay",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "EG sustain",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "EG release",
+        "type": "list"
+    },
+    {
+        "code": "24",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "LFO depth",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Voice depth",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Delay hi-pass",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "Delay time",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "title": "Delay feedback",
+        "type": "int"
+    },
+    {
+        "code": "34",
+        "title": "VCO 1 pitch",
+        "type": "int"
+    },
+    {
+        "code": "35",
+        "title": "VCO 2 pitch",
+        "type": "int"
+    },
+    {
+        "code": "36",
+        "title": "VCO 1 shape",
+        "type": "int"
+    },
+    {
+        "code": "37",
+        "title": "VCO 2 shape",
+        "type": "int"
+    },
+    {
+        "code": "33",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "39",
+        "title": "VCO 1 level",
+        "type": "int"
+    },
+    {
+        "code": "40",
+        "title": "VCO 2 level",
+        "type": "int"
+    },
+    {
+        "code": "41",
+        "title": "Cross mod depth",
+        "type": "int"
+    },
+    {
+        "code": "42",
+        "title": "Pitch EG intensity",
+        "type": "int"
+    },
+    {
+        "code": "43",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff",
+        "type": "list"
+    },
+    {
+        "code": "44",
+        "title": "Filter resonance",
+        "type": "int"
+    },
+    {
+        "code": "45",
+        "title": "Filter EG intensity",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "title": "VCO 1 octave",
+        "type": "int"
+    },
+    {
+        "code": "49",
+        "title": "VCO 2 octave",
+        "type": "int"
+    },
+    {
+        "code": "50",
+        "title": "VCO 1 wave",
+        "type": "int"
+    },
+    {
+        "code": "51",
+        "title": "VCO 2 wave",
+        "type": "int"
+    },
+    {
+        "code": "56",
+        "title": "LFO target",
+        "type": "int"
+    },
+    {
+        "code": "57",
+        "title": "LFO EG mod",
+        "type": "int"
+    },
+    {
+        "code": "58",
+        "title": "LFO wave",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Sync",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "Ring",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Velocity key track",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Keyboard track",
+        "type": "int"
+    },
+    {
+        "code": "84",
+        "title": "Filter type",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "title": "Delay output routing",
+        "type": "int"
+    }
+]

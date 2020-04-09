@@ -1,0 +1,100 @@
+[
+    {
+        "code": "5",
+        "title": "Glide",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "title": "Wave",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "Timbre",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Shape",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Cutoff",
+        "type": "list"
+    },
+    {
+        "code": "83",
+        "title": "Resonance",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "Cycling env rise",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "Cycling env fall",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "Cycling env hold",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Cycling env amount",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "ARP/SEQ rate (free)",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "ARP/SEQ rate (sync)",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "LFO rate (free)",
+        "type": "int"
+    },
+    {
+        "code": "94",
+        "title": "LFO rate (sync)",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope attack",
+        "type": "list"
+    },
+    {
+        "code": "106",
+        "title": "Envelope decay",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Envelope sustain",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "title": "Keyboard spice",
+        "type": "int"
+    }
+]

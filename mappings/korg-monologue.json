@@ -1,0 +1,120 @@
+[
+    {
+        "code": "16",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope attack",
+        "type": "list"
+    },
+    {
+        "code": "17",
+        "title": "Envelope decay",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Envelope intensity",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "LFO depth",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "Drive",
+        "type": "int"
+    },
+    {
+        "code": "35",
+        "title": "VCO 2 pitch",
+        "type": "int"
+    },
+    {
+        "code": "36",
+        "title": "VCO 1 shape",
+        "type": "int"
+    },
+    {
+        "code": "37",
+        "title": "VCO 2 shape",
+        "type": "int"
+    },
+    {
+        "code": "39",
+        "title": "VCO 1 level",
+        "type": "int"
+    },
+    {
+        "code": "40",
+        "title": "VCO 2 level",
+        "type": "int"
+    },
+    {
+        "code": "43",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff",
+        "type": "list"
+    },
+    {
+        "code": "44",
+        "title": "Resonance",
+        "type": "int"
+    },
+    {
+        "code": "49",
+        "title": "VCO 2 octave",
+        "type": "int"
+    },
+    {
+        "code": "50",
+        "title": "VCO 1 wave",
+        "type": "int"
+    },
+    {
+        "code": "51",
+        "title": "VCO 2 wave",
+        "type": "int"
+    },
+    {
+        "code": "56",
+        "title": "LFO target",
+        "type": "int"
+    },
+    {
+        "code": "58",
+        "title": "LFO wave",
+        "type": "int"
+    },
+    {
+        "code": "59",
+        "title": "LFO mode",
+        "type": "int"
+    },
+    {
+        "code": "60",
+        "title": "Sync/ring",
+        "type": "int"
+    },
+    {
+        "code": "61",
+        "title": "Envelope generator type",
+        "type": "int"
+    },
+    {
+        "code": "62",
+        "title": "Envelope generator target",
+        "type": "int"
+    }
+]

@@ -21,6 +21,10 @@ pip3 install -r requirements.txt
 python3 generate.py <mapping-file.json> 
 ```
 
+## Channels
+MIDI protocol could use 16 channels. By default the scripts utilize the channel 1. If you would like to select the channel - open `generate.py` and set `use_channels` to `True`.
+When you start the script it will offer you to select the channel.
+
 ## Mapping file
 The mapping file is JSON file containing the codes of CC.
 Based on this file the script can send randomized messages to the specific controllable parameters.

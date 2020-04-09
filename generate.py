@@ -11,33 +11,43 @@ import sys
 
 from rtmidi.midiconstants import CONTROL_CHANGE
 
+# Clear screen
 print('\x1bc')
 
+# No input file? Show how to use
 if len(sys.argv) == 1:
     print("Usage:",sys.argv[0],"mapping-file-name.json\n")
     exit()
 
+# Assign path to mapping file from argument
 mappingFile = sys.argv[1]
 
+# Open MIDI handler
 midiout = rtmidi.MidiOut()
+
+# Get available output  ports
 available_ports = midiout.get_ports()
 
 if not available_ports:
     print("No MIDI outputs detected")
     exit()
 
+# Show available output ports to user
 print("Available output ports:")
 for idx, val in enumerate(available_ports):
     print("MIDI output",idx,":", val)
 
+# Show message to get the MIDI output port from CLI
 selected_port = input("MIDI output to use: ")
 
 if not selected_port:
     print("You have to select MIDI output")
     exit()
 
+# Open MIDI output port
 midiout.open_port(int(selected_port))
 
+# Clear screen
 print('\x1bc')
 
 with midiout:
@@ -67,5 +77,7 @@ with midiout:
         print('')
     finally:
         print("Exit")
+
+        # Exit and close MIDI port
         midiout.close_port()
         del midiout

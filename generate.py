@@ -11,6 +11,12 @@ import sys
 
 from rtmidi.midiconstants import CONTROL_CHANGE
 
+# Set it to True if you want to select a channel
+use_channels = False#True
+
+# Default preset value. From 0 to 15. Available amount of MIDI channels: 16
+selected_channel = 0
+
 # Clear screen
 print('\x1bc')
 
@@ -40,9 +46,22 @@ for idx, val in enumerate(available_ports):
 # Show message to get the MIDI output port from CLI
 selected_port = input("MIDI output to use: ")
 
+# If user press "Enter" - use default port 0
 if not selected_port:
-    print("You have to select MIDI output")
-    exit()
+    selected_port = 0
+
+# If the setting set to use_channels=True, then let the user choose MIDI port
+if use_channels:
+    user_input_channel = input("Select MIDI channel to use (default is 1): ")
+    if user_input_channel:
+        if int(user_input_channel) > 16:
+            print("Amount of available channels is 16")
+            exit()
+        else:
+            selected_channel = int(user_input_channel) - 1
+
+# Calculate CC channel
+channel_to_use = CONTROL_CHANGE | (selected_channel & 0xF)
 
 # Open MIDI output port
 midiout.open_port(int(selected_port))
@@ -56,9 +75,11 @@ with midiout:
             jsonObject = json.load(mappingFileHandler)
 
             while True:
-                print('Selected output:',available_ports[int(selected_port)])
-                print('Selected mapping:',mappingFile,'\n')
+                print('Selected output:', available_ports[int(selected_port)])
+                print('Selected channel:', selected_channel + 1)
+                print('Selected mapping:', mappingFile,'\n')
 
+                # Go through JSON file and generate new values for MIDI out
                 for element in jsonObject: 
                     if element['type'] == 'int':
                         randomizedValue = random.randrange(0, 127)
@@ -69,7 +90,8 @@ with midiout:
                     if element['type'] == 'list':
                         randomizedValue = random.choice(element['list'])
 
-                    midiout.send_message([CONTROL_CHANGE, int(element['code']), int(randomizedValue)])
+                    # Send message to MIDI out
+                    midiout.send_message([channel_to_use, int(element['code']), int(randomizedValue)])
                     print(element["title"], ":", int(randomizedValue))
                 input('\nPress enter to regenerate')
                 print('\x1bc')

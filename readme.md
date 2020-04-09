@@ -34,11 +34,34 @@ The search will bring you to this [file](https://cdn.korg.com/us/support/downloa
 On page 62, you will find a table. You will need `Synth Parameter` , `Initial` and `Value`.
 Then you have to create a mapping file based on `mapping-example.json` in the project.
 
-#### Available types for mapping:
+#### Available types for mapping
 
 * `bool` - use it if parameter is on/off. You don't have to specify any values in the node "list" for this type;
 * `list` - list of the values. It could be used for octaves and center-based parameters. Range - from 0 to 127. You have to add node "list" and specify a list of values there;
 * `int` - range from 0 to 127. You don't have to specify any values in the column "list" for this type.
+
+#### Currently supported synthesizers
+* Korg Minilogue XD
+* Korg MS2000
+* Korg Microkorg
+* Korg Minilogue
+* Korg Monologue
+* Korg Volca Beats
+* Korg Volca Drum
+* Roland JD XI
+* Fred's Lab Buzzzy
+* Dave Smith Inctruments OB6
+* Arturia Microfreak
+
+## Attention
+Due to specifics of some parameters (such as cutoff, resonance, high/low-pass filters, attack, release etc.) 
+you won't be able to hear the sound right after pressing the MIDI note. 
+
+Examine your parameters on the screen in the CLI. Here are two important things:
+
+* you can modify parameters physically on the synthesizer after script done;
+* you can save generated pattern on your synthesizer;
+* you won't get the same sound ever again after you press "Enter".
 
 ## Contribution
 

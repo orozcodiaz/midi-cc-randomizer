@@ -1,0 +1,299 @@
+[
+    {
+        "code": "20",
+        "title": "Oscillator 1 shape",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Oscillator 1 parameter",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Oscillator 1 range",
+        "type": "list"
+    },
+    {
+        "code": "28",
+        "title": "Modulation operator",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Oscillator 2 shape",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Oscillator 2 parameter",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Oscillator 2 range",
+        "type": "list"
+    },
+    {
+        "code": "27",
+        "title": "Oscillator 2 detune",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Oscillator balance",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "Sub oscillator volume",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "title": "Noise volume",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "Sub oscillator/transient generator shape",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "Filter resonance",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Envelope to cutoff modulation amount",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "LFO to cutoff modulation amount",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope 1 attack",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "Envelope 1 decay",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "title": "Envelope 1 sustain",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope 1 release",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope 2 attack",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "title": "Envelope 2 decay",
+        "type": "int"
+    },
+    {
+        "code": "110",
+        "title": "Envelope 2 sustain",
+        "type": "int"
+    },
+    {
+        "code": "111",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope 2 release",
+        "type": "int"
+    },
+    {
+        "code": "112",
+        "title": "LFO 1 waveform",
+        "type": "int"
+    },
+    {
+        "code": "113",
+        "title": "LFO 1 rate",
+        "type": "int"
+    },
+    {
+        "code": "114",
+        "title": "LFO 1 rise time",
+        "type": "int"
+    },
+    {
+        "code": "115",
+        "title": "LFO 1 master/slave",
+        "type": "int"
+    },
+    {
+        "code": "116",
+        "title": "LFO 2 waveform",
+        "type": "int"
+    },
+    {
+        "code": "117",
+        "title": "LFO 2 rate",
+        "type": "int"
+    },
+    {
+        "code": "118",
+        "title": "LFO 2 rise time",
+        "type": "int"
+    },
+    {
+        "code": "119",
+        "title": "LFO 2 master/slave",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Modulation n source",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Modulation n destination",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Modulation n amount",
+        "type": "list"
+    },
+    {
+        "code": "",
+        "title": "Operator n source 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Operator n source 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Operator n operation",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Sequencer mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Tempo",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "title": "Groove template",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "title": "Groove amount",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "title": "Arpeggiator direction",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "Arpeggiator range",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Arpeggiator pattern",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "Sequencer clock division",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Octave transposition",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Scale/raga",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Portamento",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Legato",
+        "type": "int"
+    }
+]

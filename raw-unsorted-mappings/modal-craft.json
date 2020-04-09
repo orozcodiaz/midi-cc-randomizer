@@ -1,0 +1,329 @@
+[
+    {
+        "code": "1",
+        "title": "Modulation Wheel",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "notes": [
+            "0 - 2.5 seconds",
+            " exponential"
+        ],
+        "title": "Glide"
+    },
+    {
+        "code": "7",
+        "notes": [
+            "Silence - full volume"
+        ],
+        "title": "Headphone Volume"
+    },
+    {
+        "code": "11",
+        "title": "Expression Pedal",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "notes": [
+            "Dry - Wet"
+        ],
+        "title": "Distortion"
+    },
+    {
+        "code": "13",
+        "notes": [
+            "Dry - Wet"
+        ],
+        "title": "Delay"
+    },
+    {
+        "code": "14",
+        "notes": [
+            "No Sync: 0 - 250 milliseconds / Sync: 8 steps",
+            " Longest delay time possible divided down"
+        ],
+        "title": "Delay Time"
+    },
+    {
+        "code": "15",
+        "notes": [
+            "0% - 90%"
+        ],
+        "title": "Delay Feedback"
+    },
+    {
+        "code": "16",
+        "title": "Osc1 Wave",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Osc2 Wave",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "notes": [
+            "Osc1 - Osc2"
+        ],
+        "title": "Osc Mix"
+    },
+    {
+        "code": "19",
+        "notes": [
+            "0 - Full"
+        ],
+        "title": "Osc-Mod Amount"
+    },
+    {
+        "code": "20",
+        "notes": [
+            "0 - 63 Unison / 64 - 70 Major / 71 - 77 Minor / 78 - 84 Major 6th / 85 - 91 Sus 4th / 92 - 98 5ths / 99 - 105 5th + Oct / 106 - 112 Oct + 1 + 2/ 113 - 119 Oct + 1 -1 / 119 - 127 Oct -1 -2"
+        ],
+        "title": "Spread"
+    },
+    {
+        "code": "22",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "FEG Attack"
+    },
+    {
+        "code": "23",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "FEG Decay"
+    },
+    {
+        "code": "24",
+        "notes": [
+            "0-1"
+        ],
+        "title": "FEG Sustain"
+    },
+    {
+        "code": "25",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "FEG Release"
+    },
+    {
+        "code": "26",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "AEG Attack"
+    },
+    {
+        "code": "27",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "AEG Decay"
+    },
+    {
+        "code": "28",
+        "notes": [
+            "0-1"
+        ],
+        "title": "AEG Sustain"
+    },
+    {
+        "code": "29",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "AEG Release"
+    },
+    {
+        "code": "30",
+        "notes": [
+            "+/- 4 Octaves"
+        ],
+        "title": "Osc2 Course Detune"
+    },
+    {
+        "code": "31",
+        "notes": [
+            "-/+ 1 Semitone"
+        ],
+        "title": "Osc2 Fine Detune"
+    },
+    {
+        "code": "32",
+        "notes": [
+            "63 (0) +/- 63"
+        ],
+        "title": "FEG Amount"
+    },
+    {
+        "code": "33",
+        "notes": [
+            "0 = LP / 64 = BP / 127 = HP"
+        ],
+        "title": "Morph"
+    },
+    {
+        "code": "34",
+        "notes": [
+            "0Hz - 22kHz"
+        ],
+        "title": "Cutoff"
+    },
+    {
+        "code": "35",
+        "notes": [
+            "None-Full"
+        ],
+        "title": "Reso"
+    },
+    {
+        "code": "36",
+        "notes": [
+            "NO SYNC: 0-127 = 0.02Hz - 32Hz; SYNC: 0-7 = 1/16 / 8-15 = 1/8 / 16-23 = 3/16 / 24-31 = 1/4 / 32-39 = 3/8 / 40-47 = 1/2 / 48-55 = 3/4 / 56-63 = 1 / 64-71 = 3/2 / 72-79 = 2 / 80-87 = 3 / 88-95 = 4 / 96-103 = 6 /104-111 = 8 / 112-119 = 12 / 120-127 = 16"
+        ],
+        "title": "LFO1 Rate"
+    },
+    {
+        "code": "37",
+        "notes": [
+            "63 (0) +/- 63"
+        ],
+        "title": "LFO1 Depth"
+    },
+    {
+        "code": "39",
+        "notes": [
+            "0-32 Sine to Triangle / 33-64 - Triangle to Sawtooth / 65-96 - Sawtooth to Square / 97-127 - Square to Sample and Hold"
+        ],
+        "title": "LFO1 Shape"
+    },
+    {
+        "code": "40",
+        "notes": [
+            "Octaves -2 to +4"
+        ],
+        "title": "Octave"
+    },
+    {
+        "code": "41",
+        "notes": [
+            "16 Modes"
+        ],
+        "title": "Osc-Mod Mode"
+    },
+    {
+        "code": "43",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "MEG Attack"
+    },
+    {
+        "code": "44",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "MEG Decay"
+    },
+    {
+        "code": "45",
+        "notes": [
+            "0-1"
+        ],
+        "title": "MEG Sustain"
+    },
+    {
+        "code": "46",
+        "notes": [
+            "0-4 Seconds"
+        ],
+        "title": "MEG Release"
+    },
+    {
+        "code": "47",
+        "notes": [
+            "NO SYNC: 0-63 = 0-32Hz Free / 64-71 Root/8 / 72-79 Root/4 / 80-87 Root/2 / 88-95 Root / 96-103 Root*1.5 /104-111 Root*2 / 112-119 Root*2.5 / 120-127 Root*3; SYNC: 0-7 = 1/16 / 8-15 = 1/8 / 16-23 =1/4 / 24-31 =1/2 / 32-39 = 1 / 40-47 = 5/4 / 48-55 =2 / 56-63 = 4 (Cycles per beat)"
+        ],
+        "title": "LFO2 Rate"
+    },
+    {
+        "code": "48",
+        "notes": [
+            "63 (0) +/- 63"
+        ],
+        "title": "LFO2 Depth"
+    },
+    {
+        "code": "50",
+        "notes": [
+            "0-32 Sine to Triangle / 33-64 - Triangle to Sawtooth / 65-96 - Sawtooth to Square / 97-127 - Square to Sample and Hold"
+        ],
+        "title": "LFO2 Shape"
+    },
+    {
+        "code": "51",
+        "notes": [
+            "63 (0) +/- 63"
+        ],
+        "title": "AEG Amount"
+    },
+    {
+        "code": "52",
+        "notes": [
+            "0 - 63 = OFF / 64 - 127 = ON"
+        ],
+        "title": "LFO1 MIDI Sync"
+    },
+    {
+        "code": "54",
+        "notes": [
+            "0 - 63 = OFF / 64 - 127 = ON"
+        ],
+        "title": "LFO2 MIDI Sync"
+    },
+    {
+        "code": "55",
+        "notes": [
+            "0 - 63 = OFF / 64 - 127 = ON"
+        ],
+        "title": "Delay MIDI Sync"
+    },
+    {
+        "code": "56",
+        "notes": [
+            "0-41 Retrig / 42-83 Free / 84-127 Single"
+        ],
+        "title": "LFO1 Mode"
+    },
+    {
+        "code": "57",
+        "notes": [
+            "0-41 Retrig / 42-83 Free / 84-127 Single"
+        ],
+        "title": "LFO2 Mode"
+    },
+    {
+        "code": "58",
+        "notes": [
+            "0 - 63 = OFF / 64 - 127 = ON"
+        ],
+        "title": "Arp Status"
+    },
+    {
+        "code": "64",
+        "notes": [
+            "0 - 63 = OFF / 64 - 127 = ON"
+        ],
+        "title": "Sustain Pedal"
+    },
+    {
+        "code": null,
+        "title": null
+    }
+]

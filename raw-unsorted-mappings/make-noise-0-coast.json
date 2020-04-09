@@ -1,0 +1,109 @@
+[
+    {
+        "code": "117",
+        "notes": [
+            "0: off; 1-127: on"
+        ],
+        "title": "Arpeggiator switch"
+    },
+    {
+        "code": "119",
+        "notes": [
+            "0: traditional; 1 to 127: latch & shift"
+        ],
+        "title": "Arpeggiator type"
+    },
+    {
+        "code": "118",
+        "notes": [
+            "0: off; 1 to 127: on"
+        ],
+        "title": "Legato switch"
+    },
+    {
+        "code": "102",
+        "notes": [
+            "0-15: sets the channel to 1-16; 16 to 127: sets MIDI channel A to All"
+        ],
+        "title": "MIDI A channel"
+    },
+    {
+        "code": "103",
+        "notes": [
+            "0-15: sets the channel to 1-16; 16 to 127: sets MIDI channel B to All"
+        ],
+        "title": "MIDI B channel"
+    },
+    {
+        "code": "104",
+        "notes": [
+            "0: note; 1: velocity; 2: modulation; 3 to 127: LFO (rate set by clock out)"
+        ],
+        "title": "MIDI channel A CV"
+    },
+    {
+        "code": "105",
+        "notes": [
+            "0: note; 1: velocity; 2: modulation; 3 to 127: LFO (rate set to <TAP> PGM_A)"
+        ],
+        "title": "MIDI channel B CV"
+    },
+    {
+        "code": "106",
+        "notes": [
+            "0: note on; 1: velocity > 50%; 2: mod wheel > 50%; 3 to 127: LFO"
+        ],
+        "title": "MIDI channel A gate"
+    },
+    {
+        "code": "107",
+        "notes": [
+            "0: note on; 1: velocity > 50%; 2: mod wheel > 50%; 3 to 127: LFO"
+        ],
+        "title": "MIDI channel B gate"
+    },
+    {
+        "code": "108",
+        "title": "Pitch bend scale A",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "title": "Pitch bend scale B",
+        "type": "int"
+    },
+    {
+        "code": "110",
+        "title": "Aftertouch scale A",
+        "type": "int"
+    },
+    {
+        "code": "111",
+        "title": "Aftertouch scale B",
+        "type": "int"
+    },
+    {
+        "code": "112",
+        "title": "Velocity scale A",
+        "type": "int"
+    },
+    {
+        "code": "113",
+        "title": "Velocity scale B",
+        "type": "int"
+    },
+    {
+        "code": "114",
+        "notes": [
+            "0: off; 1: on"
+        ],
+        "title": "MIDI block switch"
+    },
+    {
+        "code": "116",
+        "notes": [
+            "0 to 1: 1/1; 2: 1/2; 3: 1/3; 4: 1/4; etc."
+        ],
+        "title": "Tempo in divisor"
+    }
+]

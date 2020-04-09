@@ -1,0 +1,146 @@
+[
+    {
+        "code": "1",
+        "title": "Mod wheel",
+        "type": "int"
+    },
+    {
+        "code": "3",
+        "title": "Modulation rate",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Glide time",
+        "type": "int"
+    },
+    {
+        "code": "8",
+        "title": "Arpeggiator/sequencer rate",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "Oscillator 2 frequency",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Glide on/off"
+    },
+    {
+        "code": "69",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Arpeggiator/sequencer hold"
+    },
+    {
+        "code": "73",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Arpeggiator/sequencer play"
+    },
+    {
+        "code": "74",
+        "notes": [
+            "0: 32'; 32: 16'; 64: 8'; 96: 4'"
+        ],
+        "title": "Oscillator 1 octave"
+    },
+    {
+        "code": "75",
+        "notes": [
+            "0: 32'; 32: 16'; 64: 8'; 96: 4'"
+        ],
+        "title": "Oscillator 2 octave"
+    },
+    {
+        "code": "77",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Oscillator 2 sync"
+    },
+    {
+        "code": "85",
+        "notes": [
+            "0: LCR; 43: LCT; 85: exponential"
+        ],
+        "title": "Glide type"
+    },
+    {
+        "code": "89",
+        "notes": [
+            "0: -2; 26: -1; 51: 0; 77: +1; 102: +2"
+        ],
+        "title": "Keyboard octave"
+    },
+    {
+        "code": "90",
+        "notes": [
+            "0: 4 whole; 5: 3 whole; 11: 2 whole; 16: dotted whole; 21: whole; 27: dotted half; 32: whole triplet; 37: half; 43: dotted quarter; 48: half triplet; 53: quarter; 59: dotted eighth; 64: quarter triplet; 69: eighth; 75: dotted sixteenth; 80: eighth trip;et; 85: sixteenth; 91: dotted 32nd; 96: sixteenth tripet; 101: 32nd; 107: dotted 64th; 112: 32nd triplet; 117: 64th; 123: 64th triplet"
+        ],
+        "title": "Arpeggiator/sequencer clock division"
+    },
+    {
+        "code": "91",
+        "notes": [
+            "0: arp; 43: seq; 85: rec"
+        ],
+        "title": "Arpeggiator/sequencer mode"
+    },
+    {
+        "code": "92",
+        "notes": [
+            "0: ORDR; 43: FWD/BKWD; 85: RNDM"
+        ],
+        "title": "Arpeggiator/sequencer pattern"
+    },
+    {
+        "code": "93",
+        "notes": [
+            "0: 1; 43: 2; 85: 3"
+        ],
+        "title": "Arpeggiator/sequencer number"
+    },
+    {
+        "code": "94",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Legato glide"
+    },
+    {
+        "code": "103",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Gated glide"
+    },
+    {
+        "code": "107",
+        "notes": [
+            "0 to 123: 0 to 24 semitones"
+        ],
+        "title": "Pitch bend up amount"
+    },
+    {
+        "code": "108",
+        "notes": [
+            "0 to 123: 0 to 24 semitones"
+        ],
+        "title": "Pitch bend down amount"
+    },
+    {
+        "code": "119",
+        "notes": [
+            "0 to 123: -12 to +12 semitones"
+        ],
+        "title": "Keyboard transpose (semitones"
+    }
+]

@@ -1,0 +1,124 @@
+[
+    {
+        "code": "19",
+        "notes": [
+            "0-32: off; 33-64: stop; 65-95: slow; 96-127: fast"
+        ],
+        "title": "Rotary speed"
+    },
+    {
+        "code": "80",
+        "notes": [
+            "0-25: H; 26-51: V; 52-76: F; 77-102: A; 103-127: Y"
+        ],
+        "title": "Wave"
+    },
+    {
+        "code": "102",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 16'"
+    },
+    {
+        "code": "103",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 5 1/3'"
+    },
+    {
+        "code": "104",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 8'"
+    },
+    {
+        "code": "105",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 4'"
+    },
+    {
+        "code": "106",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 2 2/3'"
+    },
+    {
+        "code": "107",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 2'"
+    },
+    {
+        "code": "108",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 1 3/5'"
+    },
+    {
+        "code": "109",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 1 1/3'"
+    },
+    {
+        "code": "110",
+        "notes": [
+            "0-18: footage slider 0; 19-36: footage slider 1; 37-54: footage slider 2; 55-73: footage slider 3; 74-91: footage slider 4; 92-109: footage slider 5; 110-127: footage slider 6"
+        ],
+        "title": "Footage 1'"
+    },
+    {
+        "code": "79",
+        "notes": [
+            "0-63: vibrato; 64-127: chorus"
+        ],
+        "title": "Vibrato/chorus switch"
+    },
+    {
+        "code": "77",
+        "notes": [
+            "0-25: 0; 26-51: 1; 52-76: 2; 77-102: 3; 103-127: 4"
+        ],
+        "title": "Vibrato/chorus depth"
+    },
+    {
+        "code": "111",
+        "notes": [
+            "0-63: off; 64-127: on"
+        ],
+        "title": "Percussion on/off switch"
+    },
+    {
+        "code": "112",
+        "notes": [
+            "0-63: A; 64-127: B"
+        ],
+        "title": "Percussion type switch"
+    },
+    {
+        "code": "113",
+        "notes": [
+            "0-25: 0; 26-51: 1; 52-76: 2; 77-102: 3; 103-127: 4"
+        ],
+        "title": "Percussion length"
+    },
+    {
+        "code": "18",
+        "title": "Effect dist",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Effect reverb",
+        "type": "int"
+    }
+]

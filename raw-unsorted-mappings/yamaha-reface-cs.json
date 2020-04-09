@@ -1,0 +1,109 @@
+[
+    {
+        "code": "20",
+        "notes": [
+            "0: polyphonic; 1-127: mono with portamento time"
+        ],
+        "title": "Portamento"
+    },
+    {
+        "code": "78",
+        "notes": [
+            "0-25: off; 26-51: amp; 52-76: filter; 77-102: pitch; 103-127: oscillator"
+        ],
+        "title": "LFO assign"
+    },
+    {
+        "code": "77",
+        "title": "LFO depth",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "title": "LFO speed",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "notes": [
+            "0-25: multi-saw; 26-51: pulse; 52-76: oscillator sync; 77-102: ring modulation; 103-127: frequency modulation"
+        ],
+        "title": "Oscillator type"
+    },
+    {
+        "code": "81",
+        "title": "Oscillator texture",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Oscillator mod",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Filter resonance",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "EG FEG-AEG balance",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "EG attack time",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "EG decay time",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "EG sustain level",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "EG release time",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "notes": [
+            "0-25: distortion; 26-51: chorus/flange; 52-76: phaser; 77-102: delay; 103-127: off"
+        ],
+        "title": "Effect type"
+    },
+    {
+        "code": "18",
+        "title": "Effect depth",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Effect rate",
+        "type": "int"
+    }
+]

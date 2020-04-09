@@ -1,0 +1,192 @@
+[
+    {
+        "code": "71",
+        "title": "Accent",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "Bass drum tune",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Bass drum tone",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Bass drum compression",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "Bass drum decay",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Bass drum level",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Snare drum tone",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "Snare drum snappy",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Snare drum compression",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "Snare drum decay",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Snare drum level",
+        "type": "int"
+    },
+    {
+        "code": "46",
+        "title": "Low tom tune",
+        "type": "int"
+    },
+    {
+        "code": "47",
+        "title": "Low tom decay",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "title": "Low tom level",
+        "type": "int"
+    },
+    {
+        "code": "49",
+        "title": "Mid tom tune",
+        "type": "int"
+    },
+    {
+        "code": "50",
+        "title": "Mid tom decay",
+        "type": "int"
+    },
+    {
+        "code": "51",
+        "title": "Mid tom level",
+        "type": "int"
+    },
+    {
+        "code": "52",
+        "title": "High tom tune",
+        "type": "int"
+    },
+    {
+        "code": "53",
+        "title": "High tom decay",
+        "type": "int"
+    },
+    {
+        "code": "54",
+        "title": "High tom level",
+        "type": "int"
+    },
+    {
+        "code": "55",
+        "title": "Rim shot tune",
+        "type": "int"
+    },
+    {
+        "code": "56",
+        "title": "Rim shot decay",
+        "type": "int"
+    },
+    {
+        "code": "57",
+        "title": "Rim shot level",
+        "type": "int"
+    },
+    {
+        "code": "58",
+        "title": "Hand clap tune",
+        "type": "int"
+    },
+    {
+        "code": "59",
+        "title": "Hand clap decay",
+        "type": "int"
+    },
+    {
+        "code": "60",
+        "title": "Hand clap level",
+        "type": "int"
+    },
+    {
+        "code": "61",
+        "title": "Closed hi hat tune",
+        "type": "int"
+    },
+    {
+        "code": "62",
+        "title": "Closed hi hat decay",
+        "type": "int"
+    },
+    {
+        "code": "63",
+        "title": "Closed hi hat level",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Open hi hat tune",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "Open hi hat decay",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Open hi hat level",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Cymbal tone",
+        "type": "int"
+    },
+    {
+        "code": "84",
+        "title": "Cymbal decay",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "title": "Cymbal level",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "Cow bell tune",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "Cow bell decay",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "title": "Cow bell level",
+        "type": "int"
+    }
+]

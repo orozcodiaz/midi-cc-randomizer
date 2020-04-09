@@ -1,0 +1,291 @@
+[
+    {
+        "code": "93",
+        "title": "Solo",
+        "type": "int"
+    },
+    {
+        "code": "94",
+        "title": "Mute",
+        "type": "int"
+    },
+    {
+        "code": "95",
+        "title": "Track level",
+        "type": "int"
+    },
+    {
+        "code": "3",
+        "title": "Trig note",
+        "type": "int"
+    },
+    {
+        "code": "4",
+        "title": "Trig velocity",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Trig length",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Filter trig",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "LFO trig",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "Source tune",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Source play mode",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Source bit reduction",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Source sample slot",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "Source start",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Source length",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Source loop position",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "Source sample level",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "title": "Filter frequency",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Resonance",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "title": "Filter type",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter attack time",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Filter decay time",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "Filter sustain level",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Filter release time",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "title": "Filter env depth",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Amp attack time",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "Amp hold time",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Amp decay time",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "Amp overdrive",
+        "type": "int"
+    },
+    {
+        "code": "8",
+        "title": "Amp delay send",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Amp reverb send",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "title": "Amp pan",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "Amp volume",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "LFO speed",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "LFO multiplier",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "title": "LFO fade in/out",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "LFO destination",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "title": "LFO waveform",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "title": "LFO start phase",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "title": "LFO trig mode",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "title": "LFO depth",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "title": "FX delay time",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "FX pingpong",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "FX stereo width",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "title": "FX feedback",
+        "type": "int"
+    },
+    {
+        "code": "89",
+        "title": "FX highpass filter",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "title": "FX lowpass filter",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "FX reverb send",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "FX mix volume",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "FX reverb predelay",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "FX reverb decay time",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "title": "FX reverb shelving freq",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "FX reverb shelving gain",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "FX reverb highpass filter",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "FX reverb lowpass filter",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "title": "FX reverb mix volume",
+        "type": "int"
+    }
+]

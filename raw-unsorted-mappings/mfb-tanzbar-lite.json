@@ -1,0 +1,131 @@
+[
+    {
+        "code": "3",
+        "title": "Bass drum tune",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "title": "Bass drum tone",
+        "type": "int"
+    },
+    {
+        "code": "64",
+        "title": "Bass drum decay",
+        "type": "int"
+    },
+    {
+        "code": "11",
+        "title": "Snare drum tone",
+        "type": "int"
+    },
+    {
+        "code": "67",
+        "title": "Snare drum decay",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Snare drum noise",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Claps decay",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Claps filter",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Claps attack",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "title": "Claps trigger",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Toms tune",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "Toms decay",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "Conga tune",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "title": "Conga decay",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Conga pan",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "title": "Toms pan",
+        "type": "int"
+    },
+    {
+        "code": "84",
+        "title": "Cowbell tune",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "title": "Cowbell decay",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "Claves tune",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "Claves decay",
+        "type": "int"
+    },
+    {
+        "code": "89",
+        "title": "Cymbal tune",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "Cymbal tone",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "title": "Cymbal decay",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "title": "Open hi hat decay",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Closed hi hat decay",
+        "type": "int"
+    }
+]

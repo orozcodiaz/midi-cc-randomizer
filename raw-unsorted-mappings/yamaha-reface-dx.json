@@ -1,0 +1,145 @@
+[
+    {
+        "code": "80",
+        "notes": [
+            "0-11: algo 1; 12-21: algo 2; 22-32: algo 3; 33-42: algo 4; 43-53: algo 5; 54-64: algo 6; 65-74: algo 7; 75-85: algo 8; 86-95: algo 9; 96-106: algo 10; 107-116: algo 11; 117-127: algo 12"
+        ],
+        "title": "Algorithm"
+    },
+    {
+        "code": "85",
+        "title": "Op 1 output level",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "Op 1 feedback level",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "notes": [
+            "0-63: sawtooth; 64-127: square"
+        ],
+        "title": "Op 1 feedback type"
+    },
+    {
+        "code": "88",
+        "notes": [
+            "0-63: frequency/ratio; 64-127: fixed frequency/Hz"
+        ],
+        "title": "Op 1 frequency mode"
+    },
+    {
+        "code": "89",
+        "title": "Op 1 frequency ratio/freq (coarse)",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "title": "Op 1 frequency ratio/freq (fine)",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "Op 2 output level",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "Op 2 feedback level",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "notes": [
+            "0-63: sawtooth; 64-127: square"
+        ],
+        "title": "Op 2 feedback type"
+    },
+    {
+        "code": "105",
+        "notes": [
+            "0-63: frequency/ratio; 64-127: fixed frequency/Hz"
+        ],
+        "title": "Op 2 frequency mode"
+    },
+    {
+        "code": "106",
+        "title": "Op 2 frequency ratio/freq (coarse)",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "title": "Op 2 frequency ratio/freq (fine)",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "title": "Op 3 output level",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "title": "Op 3 feedback level",
+        "type": "int"
+    },
+    {
+        "code": "110",
+        "notes": [
+            "0-63: sawtooth; 64-127: square"
+        ],
+        "title": "Op 3 feedback type"
+    },
+    {
+        "code": "111",
+        "notes": [
+            "0-63: frequency/ratio; 64-127: fixed frequency/Hz"
+        ],
+        "title": "Op 3 frequency mode"
+    },
+    {
+        "code": "112",
+        "title": "Op 3 frequency ratio/freq (coarse)",
+        "type": "int"
+    },
+    {
+        "code": "113",
+        "title": "Op 3 frequency ratio/freq (fine)",
+        "type": "int"
+    },
+    {
+        "code": "114",
+        "title": "Op 4 output level",
+        "type": "int"
+    },
+    {
+        "code": "115",
+        "title": "Op 4 feedback level",
+        "type": "int"
+    },
+    {
+        "code": "116",
+        "notes": [
+            "0-63: sawtooth; 64-127: square"
+        ],
+        "title": "Op 4 feedback type"
+    },
+    {
+        "code": "117",
+        "notes": [
+            "0-63: frequency/ratio; 64-127: fixed frequency/Hz"
+        ],
+        "title": "Op 4 frequency mode"
+    },
+    {
+        "code": "118",
+        "title": "Op 4 frequency ratio/freq (coarse)",
+        "type": "int"
+    },
+    {
+        "code": "119",
+        "title": "Op 4 frequency ratio/freq (fine)",
+        "type": "int"
+    }
+]

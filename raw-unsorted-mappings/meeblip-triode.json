@@ -1,0 +1,147 @@
+[
+    {
+        "code": "1",
+        "type": "int",
+        "notes": [
+            "Mapped to LFO Depth"
+        ],
+        "title": "LFO Depth"
+    },
+    {
+        "code": "48",
+        "type": "int",
+        "title": "Rate"
+    },
+    {
+        "code": "49",
+        "type": "int",
+        "title": "Depth"
+    },
+    {
+        "code": "50",
+        "type": "int",
+        "title": "Detune"
+    },
+    {
+        "code": "51",
+        "type": "int",
+        "title": "Glide"
+    },
+    {
+        "code": "52",
+        "type": "int",
+        "title": "Resonance"
+    },
+    {
+        "code": "53",
+        "type": "list",
+        "list": [
+            "126",
+            "127",
+        ],
+        "title": "Cutoff"
+    },
+    {
+        "code": "54",
+        "type": "int",
+        "title": "Filter Decay"
+    },
+    {
+        "code": "55",
+        "type": "int",
+        "title": "Amplitude Decay"
+    },
+    {
+        "code": "56",
+        "type": "int",
+        "title": "Accent"
+    },
+    {
+        "code": "57",
+        "type": "int",
+        "notes": [
+            "Knob only accessible via MIDI"
+        ],
+        "title": "Envelope Modulation"
+    },
+    {
+        "code": "58",
+        "type": "int",
+        "notes": [
+            "Knob only accessible via MIDI"
+        ],
+        "title": "Pulse Width"
+    },
+    {
+        "code": "59",
+        "type": "list",
+        "list": [
+            "0",
+            "1"
+        ],
+        "notes": [
+            "Knob only accessible via MIDI"
+        ],
+        "title": "Attack"
+    },
+    {
+        "code": "60",
+        "list": [
+            "0",
+            "1"
+        ],
+        "notes": [
+            "Knob only accessible via MIDI"
+        ],
+        "title": "Amplitude Attack"
+    },
+    {
+        "code": "64",
+        "notes": [
+            "Switch. 0-63 will correspond to \"off\"; any value from 64-127 will result in \"on.\""
+        ],
+        "title": "Sustain"
+    },
+    {
+        "code": "65",
+        "notes": [
+            "Switch. 0-63 will correspond to \"off\"; any value from 64-127 will result in \"on.\""
+        ],
+        "title": "Sub-oscillator"
+    },
+    {
+        "code": "66",
+        "notes": [
+            "Switch. 0-63 will correspond to \"off\"; any value from 64-127 will result in \"on.\""
+        ],
+        "title": "PWM Sweep"
+    },
+    {
+        "code": "67",
+        "notes": [
+            "Switch. 0-63 will correspond to \"off\"; any value from 64-127 will result in \"on.\""
+        ],
+        "title": "Destination"
+    },
+    {
+        "code": "68",
+        "notes": [
+            "Switch. 0-63 will correspond to \"off\"; any value from 64-127 will result in \"on.\""
+        ],
+        "title": "Wave"
+    },
+    {
+        "code": "69",
+        "notes": [
+            "Switch only accessible via MIDI. 0-63 will correspond to \"off\"; any value from 64-127 will result in \"on.\""
+        ],
+        "title": "Randomize"
+    },
+    {
+        "code": "70",
+        "notes": [
+            "Switch only accessible via MIDI. 0-63 will correspond to \"off\"; any value from 64-127 will result in \"on.\" Default ON."
+        ],
+        "title": "Note retrigger"
+    }
+]

@@ -1,0 +1,237 @@
+[
+    {
+        "code": "1",
+        "title": "Modulation wheel",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "notes": [
+            "Start and end of sample"
+        ],
+        "title": "Position"
+    },
+    {
+        "code": "3",
+        "notes": [
+            "From 0.1 to 1000 grains per second"
+        ],
+        "title": "Density"
+    },
+    {
+        "code": "4",
+        "notes": [
+            "From 5ms to 1000ms"
+        ],
+        "title": "Grain size"
+    },
+    {
+        "code": "5",
+        "notes": [
+            "From 0 to 3s max distance"
+        ],
+        "title": "Spray"
+    },
+    {
+        "code": "6",
+        "notes": [
+            "From -1 to +1 octave"
+        ],
+        "title": "NRPN value MSB"
+    },
+    {
+        "code": "7",
+        "notes": [
+            "From 0Hz to 20kHz"
+        ],
+        "title": "Tune"
+    },
+    {
+        "code": "8",
+        "notes": [
+            "From mono to total stereo"
+        ],
+        "title": "Cutoff"
+    },
+    {
+        "code": "9",
+        "notes": [
+            "From -2x to +2x replay speed"
+        ],
+        "title": "Resonance"
+    },
+    {
+        "code": "10",
+        "notes": [
+            "From no sides to no center"
+        ],
+        "title": "Panspray"
+    },
+    {
+        "code": "11",
+        "notes": [
+            "From left to right"
+        ],
+        "title": "Scan"
+    },
+    {
+        "code": "12",
+        "notes": [
+            "From hollow to fat"
+        ],
+        "title": "Window sides"
+    },
+    {
+        "code": "13",
+        "notes": [
+            "0: sine; 1: random; 2: saw; 3: square"
+        ],
+        "title": "Window title"
+    },
+    {
+        "code": "14",
+        "notes": [
+            "0: sine; 1: random; 2: saw; 3: square"
+        ],
+        "title": "Window curve"
+    },
+    {
+        "code": "15",
+        "notes": [
+            "From 50mHz to 50Hz"
+        ],
+        "title": "LFO 1 waveform"
+    },
+    {
+        "code": "16",
+        "title": "LFO 2 waveform",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "notes": [
+            "From 50mHz to 50Hz"
+        ],
+        "title": "LFO 1 frequency"
+    },
+    {
+        "code": "18",
+        "title": "LFO 1 amount",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "LFO 2 frequency",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "LFO 2 amount",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "CV 1 amount",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "CV 2 amount",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "notes": [
+            "From 0ms to 12s"
+        ],
+        "title": "Attack time"
+    },
+    {
+        "code": "24",
+        "notes": [
+            "From 0ms to 16s"
+        ],
+        "title": "Decay time"
+    },
+    {
+        "code": "25",
+        "title": "Sustain amplitude",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "notes": [
+            "From 0ms to 16s"
+        ],
+        "title": "Release time"
+    },
+    {
+        "code": "27",
+        "notes": [
+            "0: tune; 1: pos; 2: spray; 3: size; 4: dens; 5: cutoff"
+        ],
+        "title": "LFO 1 destination"
+    },
+    {
+        "code": "28",
+        "notes": [
+            "0: tune; 1: pos; 2: spray; 3: size; 4: dens; 5: cutoff"
+        ],
+        "title": "LFO 2 destination"
+    },
+    {
+        "code": "29",
+        "notes": [
+            "0: tune; 1: pos; 2: spray; 3: size; 4: dens; 5: cutoff"
+        ],
+        "title": "CV 1 destination"
+    },
+    {
+        "code": "30",
+        "notes": [
+            "0: tune; 1: pos; 2: spray; 3: size; 4: dens; 5: cutoff"
+        ],
+        "title": "CV 2 destination"
+    },
+    {
+        "code": "31",
+        "title": "LFO 1 key sync",
+        "type": "int"
+    },
+    {
+        "code": "32",
+        "title": "LFO 2 key sync",
+        "type": "int"
+    },
+    {
+        "code": "33",
+        "title": "Scan key sync",
+        "type": "int"
+    },
+    {
+        "code": "36",
+        "notes": [
+            "From 0.10 to 10.0"
+        ],
+        "title": "Patch volume"
+    },
+    {
+        "code": "37",
+        "title": "Resample antialias on/off",
+        "type": "int"
+    },
+    {
+        "code": "39",
+        "notes": [
+            "From 0.003 to 1.00"
+        ],
+        "title": "Master volume"
+    },
+    {
+        "code": "60",
+        "notes": [
+            "0: -1 octave; 64: original pitch; 127: +1 octave"
+        ],
+        "title": "Pitch bend range"
+    }
+]

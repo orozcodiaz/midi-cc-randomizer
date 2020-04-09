@@ -1,0 +1,787 @@
+[
+    {
+        "code": "0",
+        "title": "Bank select MSB",
+        "type": "int"
+    },
+    {
+        "code": "1",
+        "title": "Mod wheel",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "title": "Breath control",
+        "type": "int"
+    },
+    {
+        "code": "4",
+        "title": "Foot control",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Glide rate",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "Channel volume",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Pan",
+        "type": "list"
+    },
+    {
+        "code": "12",
+        "notes": [
+            "0: 1 octave; ... 9: 10 octaves"
+        ],
+        "title": "Arpeggiator range"
+    },
+    {
+        "code": "13",
+        "notes": [
+            "0: 1 step; ... 15: 16 steps"
+        ],
+        "title": "Arpeggiator length"
+    },
+    {
+        "code": "14",
+        "notes": [
+            "0: off; 1: on; 2: one shot; 3: hold"
+        ],
+        "title": "Arpeggiator active"
+    },
+    {
+        "code": "15",
+        "notes": [
+            "0: sine; 1: triangle; 2: square; 3: sawtooth; 4: random; 5: S&H"
+        ],
+        "title": "LFO 1 shape"
+    },
+    {
+        "code": "16",
+        "title": "LFO 1 speed",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "notes": [
+            "0: off; 1: on"
+        ],
+        "title": "LFO 1 sync"
+    },
+    {
+        "code": "18",
+        "title": "LFO 1 delay",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "notes": [
+            "0: sine; 1: triangle; 2: square; 3: sawtooth; 4: random; 5: S&H"
+        ],
+        "title": "LFO 2 shape"
+    },
+    {
+        "code": "20",
+        "title": "LFO 2 speed",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "notes": [
+            "0: off; 1: on"
+        ],
+        "title": "LFO 2 sync"
+    },
+    {
+        "code": "22",
+        "title": "LFO 2 delay",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "notes": [
+            "0: sine; 1: triangle; 2: square; 3: sawtooth; 4: random; 5: S&H"
+        ],
+        "title": "LFO 3 shape"
+    },
+    {
+        "code": "24",
+        "title": "LFO 3 speed",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "notes": [
+            "0: off; 1: on"
+        ],
+        "title": "LFO 3 sync"
+    },
+    {
+        "code": "26",
+        "title": "LFO 3 delay",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "notes": [
+            "16: 128'; ... 112: 1/2'"
+        ],
+        "title": "OSC 1 octave"
+    },
+    {
+        "code": "28",
+        "notes": [
+            "52: -12; ... 76: +12"
+        ],
+        "title": "OSC 1 semitone"
+    },
+    {
+        "code": "29",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 1 detune",
+        "type": "list"
+    },
+    {
+        "code": "30",
+        "title": "OSC 1 FM",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "notes": [
+            "0: pulse; 1: saw; 2: triangle; 3: sine; 4: alt 1; 5: alt 2"
+        ],
+        "title": "OSC 1 shape"
+    },
+    {
+        "code": "33",
+        "title": "OSC 1 pulsewidth",
+        "type": "int"
+    },
+    {
+        "code": "34",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 1 PWM",
+        "type": "list"
+    },
+    {
+        "code": "35",
+        "notes": [
+            "16: 128'; ... 112: 1/2'"
+        ],
+        "title": "OSC 2 octave"
+    },
+    {
+        "code": "36",
+        "notes": [
+            "52: -12; ... 76: +12"
+        ],
+        "title": "OSC 2 semitone"
+    },
+    {
+        "code": "37",
+        "title": "OSC 2 detune",
+        "type": "int"
+    },
+    {
+        "code": "38",
+        "title": "OSC 2 FM",
+        "type": "int"
+    },
+    {
+        "code": "39",
+        "notes": [
+            "0: pulse; 1: saw; 2: triangle; 3: sine; 4: alt 1; 5: alt 2"
+        ],
+        "title": "OSC 2 shape"
+    },
+    {
+        "code": "40",
+        "title": "OSC 2 pulsewidth",
+        "type": "int"
+    },
+    {
+        "code": "41",
+        "title": "OSC 2 PWM",
+        "type": "int"
+    },
+    {
+        "code": "42",
+        "notes": [
+            "16: 128'; ... 112: 1/2'"
+        ],
+        "title": "OSC 3 octave"
+    },
+    {
+        "code": "43",
+        "notes": [
+            "52: -12; ... 76: +12"
+        ],
+        "title": "OSC 3 semitone"
+    },
+    {
+        "code": "44",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 3 detune",
+        "type": "list"
+    },
+    {
+        "code": "45",
+        "title": "OSC 3 FM",
+        "type": "int"
+    },
+    {
+        "code": "46",
+        "notes": [
+            "0: pulse; 1: saw; 2: triangle; 3: sine; 4: alt 1; 5: alt 2"
+        ],
+        "title": "OSC 3 shape"
+    },
+    {
+        "code": "47",
+        "title": "OSC 3 pulsewidth",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 3 PWM",
+        "type": "list"
+    },
+    {
+        "code": "49",
+        "notes": [
+            "0: off; 1: on"
+        ],
+        "title": "Sync"
+    },
+    {
+        "code": "50",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Pitchmod",
+        "type": "list"
+    },
+    {
+        "code": "51",
+        "title": "Glide mode",
+        "type": "int"
+    },
+    {
+        "code": "52",
+        "title": "OSC 1 level",
+        "type": "int"
+    },
+    {
+        "code": "53",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 1 balance",
+        "type": "list"
+    },
+    {
+        "code": "54",
+        "title": "Ringmod level",
+        "type": "int"
+    },
+    {
+        "code": "55",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Ringmod balance",
+        "type": "list"
+    },
+    {
+        "code": "56",
+        "title": "OSC 2 level",
+        "type": "int"
+    },
+    {
+        "code": "57",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 2 balance",
+        "type": "list"
+    },
+    {
+        "code": "58",
+        "title": "OSC 3 level",
+        "type": "int"
+    },
+    {
+        "code": "59",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 3 balance",
+        "type": "list"
+    },
+    {
+        "code": "60",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "61",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Noise balance",
+        "type": "list"
+    },
+    {
+        "code": "62",
+        "title": "Noise color",
+        "type": "int"
+    },
+    {
+        "code": "64",
+        "title": "Sustain pedal",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "title": "Glide active",
+        "type": "int"
+    },
+    {
+        "code": "66",
+        "title": "Sostenuto",
+        "type": "int"
+    },
+    {
+        "code": "67",
+        "title": "Routing",
+        "type": "int"
+    },
+    {
+        "code": "68",
+        "notes": [
+            "0: bypass; 1: LP24dB; 2: LP12dB; 3: BP 24dB; 4: BP 12dB; 5: HP 24dB; 6: HP 12dB; 7: notch 24dB; 8: notch 12dB; 9: Comb; 10: PPG LP"
+        ],
+        "title": "Filter 1 type"
+    },
+    {
+        "code": "69",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter 1 cutoff",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "title": "Filter 1 resonance",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Filter 1 drive",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "title": "Filter 1 keytrack",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 1 envelope amount",
+        "type": "list"
+    },
+    {
+        "code": "74",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 1 envelope velocity",
+        "type": "list"
+    },
+    {
+        "code": "75",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 1 cutoff modulation",
+        "type": "list"
+    },
+    {
+        "code": "76",
+        "title": "Filter 1 FM",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 1 pan",
+        "type": "list"
+    },
+    {
+        "code": "78",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 1 pan modulation",
+        "type": "list"
+    },
+    {
+        "code": "79",
+        "notes": [
+            "0: bypass; 1: LP24dB; 2: LP12dB; 3: BP 24dB; 4: BP 12dB; 5: HP 24dB; 6: HP 12dB; 7: notch 24dB; 8: notch 12dB; 9: Comb; 10: PPG LP"
+        ],
+        "title": "Filter 2 type"
+    },
+    {
+        "code": "80",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter 2 cutoff",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "Filter 2 resonance",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Filter 2 drive",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Filter 2 keytrack",
+        "type": "int"
+    },
+    {
+        "code": "84",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 2 envelope amount",
+        "type": "list"
+    },
+    {
+        "code": "85",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 2 envelope velocity",
+        "type": "list"
+    },
+    {
+        "code": "86",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 2 cutoff modulation",
+        "type": "list"
+    },
+    {
+        "code": "87",
+        "title": "Filter 2 FM",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 2 pan",
+        "type": "list"
+    },
+    {
+        "code": "89",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Filter 2 pan modulation",
+        "type": "list"
+    },
+    {
+        "code": "90",
+        "title": "Amp volume",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Amp velocity",
+        "type": "list"
+    },
+    {
+        "code": "92",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Amp modulation",
+        "type": "list"
+    },
+    {
+        "code": "93",
+        "title": "FX 1 mix",
+        "type": "int"
+    },
+    {
+        "code": "94",
+        "title": "FX 2 mix",
+        "type": "int"
+    },
+    {
+        "code": "95",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter envelope attack",
+        "type": "int"
+    },
+    {
+        "code": "96",
+        "title": "Filter envelope decay",
+        "type": "int"
+    },
+    {
+        "code": "97",
+        "title": "Filter envelope sustain",
+        "type": "int"
+    },
+    {
+        "code": "98",
+        "title": "Filter envelope decay 2",
+        "type": "int"
+    },
+    {
+        "code": "99",
+        "title": "Filter envelope sustain 2",
+        "type": "int"
+    },
+    {
+        "code": "100",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Filter envelope release",
+        "type": "int"
+    },
+    {
+        "code": "101",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Amp envelope attack",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "Amp envelope decay",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "Amp envelope sustain",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "title": "Amp envelope decay 2",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "Amp envelope sustain 2",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Amp envelope release",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope 3 attack",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "title": "Envelope 3 decay",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "title": "Envelope 3 sustain",
+        "type": "int"
+    },
+    {
+        "code": "110",
+        "title": "Envelope 3 decay 2",
+        "type": "int"
+    },
+    {
+        "code": "111",
+        "title": "Envelope 3 sustain 2",
+        "type": "int"
+    },
+    {
+        "code": "112",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope 3 release",
+        "type": "int"
+    },
+    {
+        "code": "113",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope 4 attack",
+        "type": "int"
+    },
+    {
+        "code": "114",
+        "title": "Envelope 4 decay",
+        "type": "int"
+    },
+    {
+        "code": "115",
+        "title": "Envelope 4 sustain",
+        "type": "int"
+    },
+    {
+        "code": "116",
+        "title": "Envelope 4 decay 2",
+        "type": "int"
+    },
+    {
+        "code": "117",
+        "title": "Envelope 4 sustain 2",
+        "type": "int"
+    },
+    {
+        "code": "118",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope 4 release",
+        "type": "int"
+    },
+    {
+        "code": "120",
+        "title": "All sound off",
+        "type": "int"
+    },
+    {
+        "code": "121",
+        "title": "Reset all controllers",
+        "type": "int"
+    },
+    {
+        "code": "122",
+        "title": "Local control on/off",
+        "type": "int"
+    },
+    {
+        "code": "123",
+        "title": "All notes off",
+        "type": "int"
+    }
+]

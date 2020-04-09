@@ -1,0 +1,226 @@
+[
+    {
+        "code": "",
+        "title": "Modulation",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Portamento time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Expression pedal",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Portament mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Hold",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Portamento",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Transpose SW",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Noise mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Assign mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO wave form",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO modulation depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO range",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO pulse width",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO PWM source",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO mod sens",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO bend depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO PWM level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO saw level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO sub level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO sub type",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCO noise level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCF envelope depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCF modulation depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCF key follow",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "VCF cutoff",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCF resonance",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCF bend depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCA envelope SW",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "VCA envelope mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope attack",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Envelope sustain",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Envelope decay",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope release",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Chord voice 2 SW",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Chord voice 3 SW",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Chord voice 4 SW",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Chord voice 2 key shift",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Chord voice 3 key shift",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Chord voice 4 key shift",
+        "type": "int"
+    }
+]

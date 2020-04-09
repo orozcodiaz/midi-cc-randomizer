@@ -1,0 +1,270 @@
+[
+    {
+        "code": "3",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "LFO VCO amount",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "LFO VCF amount",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "notes": [
+            "0-63 for internal; 64-127 for MIDI clock"
+        ],
+        "title": "LFO MIDI sync"
+    },
+    {
+        "code": "86",
+        "title": "LFO sync clock divide",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "LFO key trigger"
+    },
+    {
+        "code": "70",
+        "notes": [
+            "0-63 for saw; 64-127 for square"
+        ],
+        "title": "VCO 1 wave"
+    },
+    {
+        "code": "71",
+        "notes": [
+            "0-63 for saw; 64-127 for square"
+        ],
+        "title": "VCO 2 wave"
+    },
+    {
+        "code": "17",
+        "notes": [
+            "64 is center"
+        ],
+        "title": "VCO 2 frequency"
+    },
+    {
+        "code": "18",
+        "notes": [
+            "defaults to 64"
+        ],
+        "title": "VCO 2 beat"
+    },
+    {
+        "code": "81",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Note sync"
+    },
+    {
+        "code": "5",
+        "title": "Glide rate",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Glide switch"
+    },
+    {
+        "code": "92",
+        "notes": [
+            "0-42 for linear constant rate; 43-84 for linear constant time; 85-127 for exponential"
+        ],
+        "title": "Glide type"
+    },
+    {
+        "code": "83",
+        "notes": [
+            "0-63 for always glide; 64-127 for glide on legato notes only"
+        ],
+        "title": "Legato glide"
+    },
+    {
+        "code": "15",
+        "title": "VCO 1 level",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "VCO 2 level",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "notes": [
+            "Default is 64 for 50% level"
+        ],
+        "title": "External in level"
+    },
+    {
+        "code": "19",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Cutoff",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Resonance",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "EG amount",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "notes": [
+            "Default is 32 for about 50%"
+        ],
+        "title": "Filter keyboard track"
+    },
+    {
+        "code": "89",
+        "notes": [
+            "Default is 64 for about 50%"
+        ],
+        "title": "Filter velocity sensitivity"
+    },
+    {
+        "code": "22",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "VCF attack",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "VCF decay / release",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "VCF sustain",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "VCA attack",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "VCA decay / release",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "VCA sustain",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Release switch"
+    },
+    {
+        "code": "73",
+        "notes": [
+            "0-42 for legato on; 43-84 for legato off; 85-127 for envelope generator reset"
+        ],
+        "title": "Trigger mode"
+    },
+    {
+        "code": "7",
+        "title": "VCA (output) level",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "notes": [
+            "Default is 64 for 50% level"
+        ],
+        "title": "Volume velocity sensitivity"
+    },
+    {
+        "code": "91",
+        "notes": [
+            "0-42 for low; 43-84 for high; 87-127 for last. Default is last."
+        ],
+        "title": "Key priority"
+    },
+    {
+        "code": "1",
+        "title": "Mod wheel",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "notes": [
+            "0-15 for off; 16-31 for 2 semitones; 32-47 for 3 semitones; 48-63 for 4 semitones; 64-79 for 5 semitones; 80-95 for 7 semitones; 96-111 for 12 semitones; 112-127 for 24 semitones"
+        ],
+        "title": "Bend up amount"
+    },
+    {
+        "code": "108",
+        "notes": [
+            "0-15 for off; 16-31 for 2 semitones; 32-47 for 3 semitones; 48-63 for 4 semitones; 64-79 for 5 semitones; 80-95 for 7 semitones; 96-111 for 12 semitones; 112-127 for 24 semitones"
+        ],
+        "title": "Bend down amount"
+    },
+    {
+        "code": "122",
+        "notes": [
+            "0 for off; 127 for on"
+        ],
+        "title": "Local control off"
+    },
+    {
+        "code": "120",
+        "notes": [
+            "Any value"
+        ],
+        "title": "All sounds off"
+    },
+    {
+        "code": "123",
+        "notes": [
+            "Any value"
+        ],
+        "title": "All notes off"
+    }
+]

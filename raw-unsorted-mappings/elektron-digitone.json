@@ -1,0 +1,564 @@
+[
+    {
+        "code": "94",
+        "title": "Mute",
+        "type": "int"
+    },
+    {
+        "code": "95",
+        "title": "Track level",
+        "type": "int"
+    },
+    {
+        "code": "3",
+        "title": "Root",
+        "type": "int"
+    },
+    {
+        "code": "4",
+        "title": "Velocity",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Length",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Filter trig",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "LFO trig",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Algorithm",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "Ratio C",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Ratio A",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "Ratio B",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Harmonics",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Detune",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Feedback",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "Mix",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "A env attack",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "title": "A env decay",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "title": "A env end",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "title": "A level",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "B env attack",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "B env decay",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "B env end",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "B level",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "A delay",
+        "type": "int"
+    },
+    {
+        "code": "84",
+        "title": "A trig",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "title": "A env reset",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "B delay",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "B trig",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "title": "B env reset",
+        "type": "int"
+    },
+    {
+        "code": "89",
+        "title": "Phase reset",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Pitch all",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Pitch 2 and 4",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ratio all",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "AB level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "AB attack",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "AB decay",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "AB end",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "AB delay",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "Filter frequency",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Resonance",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "title": "Filter type",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter attack time",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Filter decay time",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "title": "Filter sustain level",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Filter release time",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "title": "Filter envelope depth",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "Base",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Width",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Amp attack time",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "Amp decay time",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "title": "Amp sustain level",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Amp release time",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "Drive",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "title": "Pan",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "Volume",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "Chorus send",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Amp delay send",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "Amp reverb send",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "Amp env reset",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "LFO 1 speed",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "title": "LFO 1 multiplier",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "title": "LFO 1 fade in/out",
+        "type": "int"
+    },
+    {
+        "code": "110",
+        "title": "LFO 1 destination",
+        "type": "int"
+    },
+    {
+        "code": "111",
+        "title": "LFO 1 waveform",
+        "type": "int"
+    },
+    {
+        "code": "112",
+        "title": "LFO 1 start phase",
+        "type": "int"
+    },
+    {
+        "code": "113",
+        "title": "LFO 1 trig mode",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "LFO 1 depth",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "LFO 2 speed",
+        "type": "int"
+    },
+    {
+        "code": "114",
+        "title": "LFO 2 multiplier",
+        "type": "int"
+    },
+    {
+        "code": "115",
+        "title": "LFO 2 fade in/out",
+        "type": "int"
+    },
+    {
+        "code": "116",
+        "title": "LFO 2 destination",
+        "type": "int"
+    },
+    {
+        "code": "117",
+        "title": "LFO 2 waveform",
+        "type": "int"
+    },
+    {
+        "code": "118",
+        "title": "LFO 2 start phase",
+        "type": "int"
+    },
+    {
+        "code": "119",
+        "title": "LFO 2 trig mode",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "title": "LFO 2 depth",
+        "type": "int"
+    },
+    {
+        "code": "3",
+        "title": "Chorus depth",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "Chorus speed",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "title": "Chorus high-pass",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Chorus width",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "Chorus delay send",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Chorus reverb send",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "Chorus mix volume",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "Delay time",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "Pingpoing",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Stereo width",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Delay feedback",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "title": "Delay highpass filter",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "title": "Delay lowpass filter",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Delay reverb send",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "Delay mix volume",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Reverb predelay",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "title": "Reverb decay time",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Reverb shelving frequency",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Reverb shelving gain",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "title": "Reverb highpass filter",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "title": "Reverb lowpass filter",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "Reverb mix volume",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Input L volume",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Input R volume",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "title": "Pan L",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "Pan R",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "Maxter chorus send",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Master delay send",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "Master reverb send",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Master overdrive",
+        "type": "int"
+    },
+    {
+        "code": "95",
+        "title": "Master pattern volume",
+        "type": "int"
+    }
+]

@@ -1,0 +1,659 @@
+[
+    {
+        "code": "3",
+        "notes": [
+            "0: mono; 1: mono AG; 2: poly"
+        ],
+        "title": "Polyphony mode"
+    },
+    {
+        "code": "5",
+        "title": "Polyphony rate",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Pre-glide",
+        "type": "list"
+    },
+    {
+        "code": "13",
+        "notes": [
+            "60: -4 ocatves; 64: 0 octaves; 64: +4 octaves"
+        ],
+        "title": "Keyboard octave"
+    },
+    {
+        "code": "19",
+        "notes": [
+            "WAVEFORMS:"
+        ],
+        "title": "OSC 1 wave"
+    },
+    {
+        "code": null,
+        "title": null
+    },
+    {
+        "code": null,
+        "title": null
+    },
+    {
+        "code": null,
+        "title": null
+    },
+    {
+        "code": "20",
+        "title": "OSC 1 wave interpolate",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 1 pulse width index",
+        "type": "list"
+    },
+    {
+        "code": "22",
+        "title": "OSC 1 virtual sync depth",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "OSC 1 density",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "OSC 1 density detune",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 1 semitones",
+        "type": "list"
+    },
+    {
+        "code": "27",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 1 cents",
+        "type": "list"
+    },
+    {
+        "code": "28",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 1 pitchbend",
+        "type": "list"
+    },
+    {
+        "code": "29",
+        "notes": [
+            "WAVEFORMS:"
+        ],
+        "title": "OSC 2 wave"
+    },
+    {
+        "code": null,
+        "title": null
+    },
+    {
+        "code": null,
+        "title": null
+    },
+    {
+        "code": null,
+        "title": null
+    },
+    {
+        "code": "30",
+        "title": "OSC 2 wave interpolate",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 2 pulse width index",
+        "type": "list"
+    },
+    {
+        "code": "33",
+        "title": "OSC 2 virtual sync depth",
+        "type": "int"
+    },
+    {
+        "code": "35",
+        "title": "OSC 2 density",
+        "type": "int"
+    },
+    {
+        "code": "36",
+        "title": "OSC 2 density detune",
+        "type": "int"
+    },
+    {
+        "code": "37",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 2 semitones",
+        "type": "list"
+    },
+    {
+        "code": "39",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 2 cents",
+        "type": "list"
+    },
+    {
+        "code": "40",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "OSC 2 pitchbend",
+        "type": "list"
+    },
+    {
+        "code": "51",
+        "title": "OSC 1 level",
+        "type": "int"
+    },
+    {
+        "code": "52",
+        "title": "OSC 2 level",
+        "type": "int"
+    },
+    {
+        "code": "54",
+        "title": "Ring mod level",
+        "type": "int"
+    },
+    {
+        "code": "56",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "58",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Pre FX level",
+        "type": "list"
+    },
+    {
+        "code": "59",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Post FX level",
+        "type": "list"
+    },
+    {
+        "code": "60",
+        "notes": [
+            "0: noram; 1: OSC 1 bypasses the filter; 2: OSC 1 + OSC 2 bypass the filter"
+        ],
+        "title": "Routing"
+    },
+    {
+        "code": "63",
+        "title": "Drive",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "notes": [
+            "0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectifier; 5: bit reducer; 6: rate reducer"
+        ],
+        "title": "Drive type"
+    },
+    {
+        "code": "68",
+        "notes": [
+            "0: low pass 12dB; 1: low pass 24 dB; 2: band pass 6/\\6dB; 3: band pass 12/\\12 dB; 4: high pass 12 dB; 5: high pass 24 dB"
+        ],
+        "title": "Type"
+    },
+    {
+        "code": "74",
+        "title": "Frequency",
+        "type": "int"
+    },
+    {
+        "code": "69",
+        "title": "Tracking",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Resonance",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "title": "Q noramlize",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Envelope 2 to frequency",
+        "type": "list"
+    },
+    {
+        "code": "108",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Env 1 velocity",
+        "type": "list"
+    },
+    {
+        "code": "73",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Env 1 attack",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Env 1 decay",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "title": "Env 1 sustain",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Env 1 release",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Env 2 velocity",
+        "type": "list"
+    },
+    {
+        "code": "",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Env 2 attack",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Env 2 decay",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Env 2 sustain",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Env 2 release",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Env 3 velocity",
+        "type": "list"
+    },
+    {
+        "code": "",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Env 3 attack",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Env 3 decay",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Env 3 sustain",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Env 3 release",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "notes": [
+            "0: sine; 1: triangle; 2: sawtooth; 3: square; 4: random S/H; 5: time S/H; 6: piano envelope; 7: sequence 1...13: sequence 7; 14: alternative 1...21: alternative 8; 22: chromatic; 23: chromatic 16; 24: major; 25: major 7; 26: minor 7; 27: min arp 1; 28: min arp 2; 29: diminished; 30: dec minor; 31: minor 3rd; 32: pedal; 33: 4ths; 34: 4ths x12; 35: 1625 maj; 36: 1625 min; 37: 2511"
+        ],
+        "title": "LFO 1 waveform"
+    },
+    {
+        "code": "",
+        "notes": [
+            "0 degrees to 357 degrees",
+            " in steps of 3 degrees"
+        ],
+        "title": "LFO 1 phase offset"
+    },
+    {
+        "code": "",
+        "title": "LFO 1 slew rate",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO 1 delay",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO 1 delay sync",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO 1 rate",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO 1 rate sync",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "notes": [
+            "12: off; 13: on"
+        ],
+        "title": "LFO 1 one shot"
+    },
+    {
+        "code": "",
+        "notes": [
+            "14: off; 15: on"
+        ],
+        "title": "LFO 1 key sync"
+    },
+    {
+        "code": "",
+        "notes": [
+            "16: off; 17: on"
+        ],
+        "title": "LFO 1 common sync"
+    },
+    {
+        "code": "",
+        "notes": [
+            "18: off; 19: on"
+        ],
+        "title": "LFO 1 delay trigger"
+    },
+    {
+        "code": "",
+        "notes": [
+            "0: fade in; 1: fade out; 2: gate in; 3: gate out"
+        ],
+        "title": "LFO 1 fade mode"
+    },
+    {
+        "code": "",
+        "notes": [
+            "0: sine; 1: triangle; 2: sawtooth; 3: square; 4: random S/H; 5: time S/H; 6: piano envelope; 7: sequence 1...13: sequence 7; 14: alternative 1...21: alternative 8; 22: chromatic; 23: chromatic 16; 24: major; 25: major 7; 26: minor 7; 27: min arp 1; 28: min arp 2; 29: diminished; 30: dec minor; 31: minor 3rd; 32: pedal; 33: 4ths; 34: 4ths x12; 35: 1625 maj; 36: 1625 min; 37: 2511"
+        ],
+        "title": "LFO 2 waveform"
+    },
+    {
+        "code": "",
+        "notes": [
+            "0 degrees to 357 degrees",
+            " in steps of 3 degrees"
+        ],
+        "title": "LFO 2 phase offset"
+    },
+    {
+        "code": "",
+        "title": "LFO 2 slew rate",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO 2 delay",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO 2 delay sync",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO 2 rate",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "LFO 2 rate sync",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "notes": [
+            "22: off; 23: on"
+        ],
+        "title": "LFO 2 one shot"
+    },
+    {
+        "code": "",
+        "notes": [
+            "24: off; 25: on"
+        ],
+        "title": "LFO 2 key sync"
+    },
+    {
+        "code": "",
+        "notes": [
+            "26: off; 27: on"
+        ],
+        "title": "LFO 2 common sync"
+    },
+    {
+        "code": "",
+        "notes": [
+            "28: off; 29: on"
+        ],
+        "title": "LFO 2 delay trigger"
+    },
+    {
+        "code": "",
+        "notes": [
+            "4: fade in; 5: fade out; 6: gate in; 7: gate out"
+        ],
+        "title": "LFO 2 fade mode"
+    },
+    {
+        "code": "91",
+        "title": "Distortion level",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Chorus level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "EQ bass frequency",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "EQ bass level",
+        "type": "list"
+    },
+    {
+        "code": "",
+        "title": "EQ mid frequency",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "EQ mid level",
+        "type": "list"
+    },
+    {
+        "code": "",
+        "title": "EQ treble frequency",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "EQ treble level",
+        "type": "list"
+    },
+    {
+        "code": "",
+        "notes": [
+            "0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectify; 5: bit reducer; 6: rate reducer"
+        ],
+        "title": "Distortion type"
+    },
+    {
+        "code": "",
+        "title": "Distortion compensation",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "notes": [
+            "0: phaser; 1: chorus"
+        ],
+        "title": "Chorus type"
+    },
+    {
+        "code": "",
+        "title": "Chorus rate",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Chorus rate sync",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Chorus feedback",
+        "type": "list"
+    },
+    {
+        "code": "",
+        "title": "Chorus mod depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Chorus delay",
+        "type": "int"
+    }
+]

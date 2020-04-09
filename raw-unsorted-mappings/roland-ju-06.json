@@ -1,0 +1,190 @@
+[
+    {
+        "code": "1",
+        "title": "Modulation",
+        "type": "int"
+    },
+    {
+        "code": "3",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Portamento time",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "LFO delay time",
+        "type": "int"
+    },
+    {
+        "code": "11",
+        "title": "Expression pedal",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "DCO range",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "DCO LFO depth",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "DCO PWM level",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "DCO PWM source",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "DCO PWM SW",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "DCO SAW SW",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "DCO sub level",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "DCO noise level",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope attack",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Envelope decay",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope release",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Envelope sustain",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "HPF cutoff",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "VCF envelope polarity",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "VCF envelope depth",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "VCF LFO depth",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "VCF key follow",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "VCA envelope SW",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "VCA level",
+        "type": "int"
+    },
+    {
+        "code": "64",
+        "title": "Hold",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "title": "Portamento time",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "VCF resonance",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "VCF cutoff",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Delay time",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Delay feedback",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "Assign mode",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "Bend range",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Delay level",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Chorus SW",
+        "type": "int"
+    }
+]

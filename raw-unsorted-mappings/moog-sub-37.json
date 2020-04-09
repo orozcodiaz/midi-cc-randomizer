@@ -1,0 +1,508 @@
+[
+    {
+        "code": "9",
+        "title": "OSC 1 wave",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "OSC 2 frequency",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "OSC 2 beat frequency",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "OSC 2 wave",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "notes": [
+            "0: 16'",
+            " 32: 8'; 64: 4'; 96: 2'"
+        ],
+        "title": "OSC 1 octave"
+    },
+    {
+        "code": "75",
+        "notes": [
+            "0: 16'",
+            " 32: 8'; 64: 4'; 96: 2'"
+        ],
+        "title": "OSC 2 octave"
+    },
+    {
+        "code": "77",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "OSC 2 hard sync on/off"
+    },
+    {
+        "code": "110",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "OSC duo mode on/off"
+    },
+    {
+        "code": "81",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "OSC KB reset on/off"
+    },
+    {
+        "code": "3",
+        "title": "LFO 1 rate",
+        "type": "int"
+    },
+    {
+        "code": "8",
+        "title": "LFO 2 rate",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "notes": [
+            "0: low range; 43: medium range; 85: high range"
+        ],
+        "title": "LFO 1 range"
+    },
+    {
+        "code": "78",
+        "notes": [
+            "0: low range; 43: medium range; 85: high range"
+        ],
+        "title": "LFO 2 range"
+    },
+    {
+        "code": "93",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "LFO 1 KB reset"
+    },
+    {
+        "code": "95",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "LFO 2 KB reset"
+    },
+    {
+        "code": "65",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Glide"
+    },
+    {
+        "code": "85",
+        "notes": [
+            "0: LCR; 43: LCT; 85: EXP"
+        ],
+        "title": "Glide type"
+    },
+    {
+        "code": "94",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Glide legato"
+    },
+    {
+        "code": "102",
+        "notes": [
+            "0: OSC 1 + OSC 2; 43: OSC 1; 85: OSC 2"
+        ],
+        "title": "Glide dest OSC 1/2/both"
+    },
+    {
+        "code": "71",
+        "notes": [
+            "0: triangle LFO; 21: square LFO; 43: saw LFO; 64: ramp LFO; 85: S&H LFO; 107: F.EG/PGM"
+        ],
+        "title": "Mod 1 source"
+    },
+    {
+        "code": "91",
+        "notes": [
+            "0: LFO 2 rate; 18: VCA level; 37: OSC 1 wave; 55: OSC 1 + OSC 2 wave; 73: OSC 2 wave; 91: noise level; 110: EG time/PGM"
+        ],
+        "title": "Mod 1 destination"
+    },
+    {
+        "code": "20",
+        "title": "Mod 1 PGM destination amount",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "notes": [
+            "0: OSC 1 + OSC 2; 43: OSC 1; 85: OSC 2"
+        ],
+        "title": "Mod 1 OSC 1/2 select"
+    },
+    {
+        "code": "15",
+        "title": "Mod 2 pitch amount",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "Mod 2 filter amount",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Mod 2 PGM destination amount",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "notes": [
+            "0: triangle LFO; 21: square LFO; 43: saw LFO; 64: ramp LFO; 85: S&H LFO; 107: F.EG/PGM"
+        ],
+        "title": "Mod 2 source"
+    },
+    {
+        "code": "92",
+        "notes": [
+            "0: LFO 2 rate; 18: VCA level; 37: OSC 1 wave; 55: OSC 1 + OSC 2 wave; 73: OSC 2 wave; 91: noise level; 110: EG time/PGM"
+        ],
+        "title": "Mod 2 destination"
+    },
+    {
+        "code": "88",
+        "notes": [
+            "0: OSC 1 + OSC 2; 43: OSC 1; 85: OSC 2"
+        ],
+        "title": "Mod 2 OSC 1/2 SEL"
+    },
+    {
+        "code": "18",
+        "title": "Filter multidrive",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Filter resonance",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Filter KB amount",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "notes": [
+            "0: -6dB; 32: -12dB; 64: -18dB; 96: -24dB"
+        ],
+        "title": "Filter slopes (poles)"
+    },
+    {
+        "code": "23",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter EG attack time",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Filter EG decay time",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Filter EG sustain time",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Filter EG release time",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Filter EG amount",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "Filter EG KB amount",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Filter EG reset"
+    },
+    {
+        "code": "86",
+        "title": "Filter EG velocity amount",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "Filter EG delay",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "Filter EG hold",
+        "type": "int"
+    },
+    {
+        "code": "112",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Filter EG multi trig"
+    },
+    {
+        "code": "28",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Amp EG attack time",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Amp EG decay time",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "Amp EG sustain time",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Amp EG release time",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Amp EG KB amount",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Amp EG reset"
+    },
+    {
+        "code": "87",
+        "title": "Amp EG velocity amount",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "title": "Amp EG delay",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "title": "Amp EG hold",
+        "type": "int"
+    },
+    {
+        "code": "113",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Amp EG multi trig"
+    },
+    {
+        "code": "69",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Arpeggiator latch"
+    },
+    {
+        "code": "73",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Arpeggiator on/off"
+    },
+    {
+        "code": "114",
+        "title": "OSC 1 level",
+        "type": "int"
+    },
+    {
+        "code": "115",
+        "title": "OSC 1 sub level",
+        "type": "int"
+    },
+    {
+        "code": "116",
+        "title": "OSC 2 level",
+        "type": "int"
+    },
+    {
+        "code": "117",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "118",
+        "title": "Feedback ext/level",
+        "type": "int"
+    },
+    {
+        "code": "119",
+        "notes": [
+            "-12 to +13 semitones)"
+        ],
+        "title": "KB transpose"
+    },
+    {
+        "code": "122",
+        "notes": [
+            "0: off; 127: on"
+        ],
+        "title": "Local control on/off"
+    },
+    {
+        "code": "0",
+        "notes": [
+            "0 is the only valid value"
+        ],
+        "title": "Bank select (MSB)"
+    },
+    {
+        "code": "",
+        "notes": [
+            "0: preset banks 1-8; 1: preset banks 9-16"
+        ],
+        "title": "Bank select (LSB)"
+    },
+    {
+        "code": "1",
+        "title": "Mod wheel",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "title": "MIDI breath control (reserved)",
+        "type": "int"
+    },
+    {
+        "code": "4",
+        "title": "Mod 1 pitch amount",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Glide time",
+        "type": "int"
+    },
+    {
+        "code": "6",
+        "title": "Data entry (reserved)",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "Master volume",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "title": "MIDI pan (reserved)",
+        "type": "int"
+    },
+    {
+        "code": "11",
+        "title": "Mod 1 filter amount",
+        "type": "int"
+    },
+    {
+        "code": "64",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Hold pedal/sustain"
+    },
+    {
+        "code": "84",
+        "title": "Portamento control (reserved)",
+        "type": "int"
+    },
+    {
+        "code": "97",
+        "title": "Data decrement (reserved)",
+        "type": "int"
+    },
+    {
+        "code": "89",
+        "notes": [
+            "0: -2 octaves; 26: -1 octaves; 51: 0 octaves; 77: +1 octaves; 102: +2 octaves"
+        ],
+        "title": "KB octave"
+    },
+    {
+        "code": "96",
+        "title": "Data increment (reserved)",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "notes": [
+            "0-24 semitones"
+        ],
+        "title": "Pitch bend up amount"
+    },
+    {
+        "code": "108",
+        "notes": [
+            "0-24 semitones"
+        ],
+        "title": "Pitch bend down amount"
+    },
+    {
+        "code": "111",
+        "notes": [
+            "0: neither; 32: lo; 64: hi"
+        ],
+        "title": "KB control lo/hi"
+    }
+]

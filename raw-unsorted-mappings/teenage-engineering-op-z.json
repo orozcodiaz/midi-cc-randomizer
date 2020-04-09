@@ -1,0 +1,270 @@
+[
+    {
+        "code": "1",
+        "title": "Parameter 1 absolute",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "title": "Parameter 2 absolute",
+        "type": "int"
+    },
+    {
+        "code": "3",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff absolute",
+        "type": "int"
+    },
+    {
+        "code": "4",
+        "title": "Filter resonance absolute",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope attack absolute",
+        "type": "int"
+    },
+    {
+        "code": "6",
+        "title": "Envelope decay absolute",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "Envelope sustain absolute",
+        "type": "int"
+    },
+    {
+        "code": "8",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope release absolute",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "LFO depth absolute",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "title": "LFO speed absolute",
+        "type": "int"
+    },
+    {
+        "code": "11",
+        "title": "LFO target absolute",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "LFO shape absolute",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "FX 1 send absolute",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "FX 2 send absolute",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "Pan absolute",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "Volume absolute",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Portamento absolute",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Note style absolute",
+        "type": "int"
+    },
+    {
+        "code": "32",
+        "title": "Parameter 1 relative",
+        "type": "int"
+    },
+    {
+        "code": "33",
+        "title": "Parameter 2 relative",
+        "type": "int"
+    },
+    {
+        "code": "34",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff relative",
+        "type": "int"
+    },
+    {
+        "code": "35",
+        "title": "Filter resonance relative",
+        "type": "int"
+    },
+    {
+        "code": "36",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope attack relative",
+        "type": "int"
+    },
+    {
+        "code": "37",
+        "title": "Envelope decay relative",
+        "type": "int"
+    },
+    {
+        "code": "38",
+        "title": "Envelope sustain relative",
+        "type": "int"
+    },
+    {
+        "code": "39",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope release relative",
+        "type": "int"
+    },
+    {
+        "code": "40",
+        "title": "LFO depth relative",
+        "type": "int"
+    },
+    {
+        "code": "41",
+        "title": "LFO speed relative",
+        "type": "int"
+    },
+    {
+        "code": "42",
+        "title": "LFO target relative",
+        "type": "int"
+    },
+    {
+        "code": "43",
+        "title": "LFO shape relative",
+        "type": "int"
+    },
+    {
+        "code": "44",
+        "title": "FX 1 send relative",
+        "type": "int"
+    },
+    {
+        "code": "45",
+        "title": "FX 2 send relative",
+        "type": "int"
+    },
+    {
+        "code": "46",
+        "title": "Pan relative",
+        "type": "int"
+    },
+    {
+        "code": "47",
+        "title": "Volume relative",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "title": "Portamento relative",
+        "type": "int"
+    },
+    {
+        "code": "49",
+        "title": "Note style relative",
+        "type": "int"
+    },
+    {
+        "code": "50",
+        "title": "Track gain absolute",
+        "type": "int"
+    },
+    {
+        "code": "51",
+        "title": "Track gain relative",
+        "type": "int"
+    },
+    {
+        "code": "52",
+        "title": "Reset track gains",
+        "type": "int"
+    },
+    {
+        "code": "53",
+        "title": "Mute",
+        "type": "int"
+    },
+    {
+        "code": "54",
+        "title": "Audio mute",
+        "type": "int"
+    },
+    {
+        "code": "55",
+        "title": "Mute group",
+        "type": "int"
+    },
+    {
+        "code": "56",
+        "title": "Tempo",
+        "type": "int"
+    },
+    {
+        "code": "57",
+        "title": "Swing",
+        "type": "int"
+    },
+    {
+        "code": "60",
+        "title": "Track step count",
+        "type": "int"
+    },
+    {
+        "code": "61",
+        "title": "Track step length",
+        "type": "int"
+    },
+    {
+        "code": "62",
+        "title": "Quantize",
+        "type": "int"
+    },
+    {
+        "code": "63",
+        "title": "Note length",
+        "type": "int"
+    }
+]

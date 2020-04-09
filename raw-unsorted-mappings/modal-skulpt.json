@@ -1,0 +1,688 @@
+[
+    {
+        "code": "0",
+        "title": "Seq load",
+        "type": "int"
+    },
+    {
+        "code": "1",
+        "title": "Modulation wheel",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "notes": [
+            "0 - 2.5 seconds; exponential"
+        ],
+        "title": "Glide"
+    },
+    {
+        "code": "7",
+        "title": "Headphone volume",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "notes": [
+            "0-42 for mono; 43-85 for duo; 86-127 for poly"
+        ],
+        "title": "Voice mode"
+    },
+    {
+        "code": "11",
+        "notes": [
+            "Min and max values need verification"
+        ],
+        "title": "Expression pedal"
+    },
+    {
+        "code": "12",
+        "title": "Distortion",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Delay",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "notes": [
+            "No sync: 0-250ms. Sync: 8 steps with longest delay time possible divided down."
+        ],
+        "title": "Delay time"
+    },
+    {
+        "code": "15",
+        "notes": [
+            "Ranges from 0-90%"
+        ],
+        "title": "Delay feedback"
+    },
+    {
+        "code": "16",
+        "notes": [
+            "0-21 for sine; 22-42 for tri; 43-63 for saw; 64-127 for PWM duty 50%-5%"
+        ],
+        "title": "OSC1 wave"
+    },
+    {
+        "code": "17",
+        "notes": [
+            "0-21 for sine; 22-42 for tri; 43-63 for saw; 64-85 for square; 86-127 for white noise"
+        ],
+        "title": "OSC2 wave"
+    },
+    {
+        "code": "18",
+        "notes": [
+            "Orientation needs verification"
+        ],
+        "title": "OSC mix"
+    },
+    {
+        "code": "19",
+        "notes": [
+            "Plus or minus 2 octaves. Orientation needs verification."
+        ],
+        "title": "FM amount"
+    },
+    {
+        "code": "20",
+        "notes": [
+            "0-63 for unison; 64-70 for major; 71-77 for minor; 78-84 for major 6th; 85-91 for sus 4th; 92-98 for 5ths; 99-105 for 5th + oct; 106-112 for oct +1+2; 113-119 for oct +1-1; 119-127 for oct-1-2"
+        ],
+        "title": "Spread"
+    },
+    {
+        "code": "21",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Chord mode"
+    },
+    {
+        "code": "22",
+        "notes": [
+            "0-4 seconds"
+        ],
+        "title": "FEG attack"
+    },
+    {
+        "code": "23",
+        "notes": [
+            "0-2 seconds"
+        ],
+        "title": "FEG decay"
+    },
+    {
+        "code": "24",
+        "notes": [
+            "0-1 seconds"
+        ],
+        "title": "FEG sustain"
+    },
+    {
+        "code": "25",
+        "notes": [
+            "0-4 seconds"
+        ],
+        "title": "FEG release"
+    },
+    {
+        "code": "26",
+        "notes": [
+            "0-4 seconds"
+        ],
+        "title": "AEG attack"
+    },
+    {
+        "code": "27",
+        "notes": [
+            "0-2 seconds"
+        ],
+        "title": "AEG decay"
+    },
+    {
+        "code": "28",
+        "notes": [
+            "0-1 seconds"
+        ],
+        "title": "AEG sustain"
+    },
+    {
+        "code": "29",
+        "notes": [
+            "0-4 seconds"
+        ],
+        "title": "AEG release"
+    },
+    {
+        "code": "30",
+        "notes": [
+            "Plus or minus 4 octaves"
+        ],
+        "title": "OSC2 course detune"
+    },
+    {
+        "code": "31",
+        "notes": [
+            "Plus or minus 1 semitone"
+        ],
+        "title": "OSC2 fine detune"
+    },
+    {
+        "code": "32",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "FEG amount",
+        "type": "list"
+    },
+    {
+        "code": "33",
+        "notes": [
+            "0 for LP; 64 for BP; 127 for HP"
+        ],
+        "title": "Morph"
+    },
+    {
+        "code": "34",
+        "notes": [
+            "0Hz to 2kHz"
+        ],
+        "title": "Cutoff"
+    },
+    {
+        "code": "35",
+        "title": "Reso",
+        "type": "int"
+    },
+    {
+        "code": "36",
+        "notes": [
+            "No sync: 0-127 for 0.02Hz - 32Hz. Sync: 0-7 for 1/16; 8-15 for 1/8; 16-23 for 3/16; 24-31 for 1/4; 32-39 for 3/8; 40-47 for 1/2; 48-55 for 3/4; 56-53 for 1; 64-71 for 3/2; 72-79 for 2; 80-87 for 3; 88-95 for 4; 96-103 for 6; 104-111 for 8; 112-119 for 12; 120-127 for 16"
+        ],
+        "title": "LFO1 rate"
+    },
+    {
+        "code": "37",
+        "title": "LFO1 depth",
+        "type": "int"
+    },
+    {
+        "code": "39",
+        "notes": [
+            "0-14 for sine; 15-31 for iSine; 32-47 for tri; 48-63 for iTri; 64-79 for ramp up; 80-95 for ramp down; 96-120 for square; 121-127 for iSquare"
+        ],
+        "title": "LFO1 shape"
+    },
+    {
+        "code": "40",
+        "notes": [
+            "Octaves -2 to +4"
+        ],
+        "title": "Octave"
+    },
+    {
+        "code": "43",
+        "notes": [
+            "0-4 seconds"
+        ],
+        "title": "MEG attack"
+    },
+    {
+        "code": "44",
+        "notes": [
+            "0-2 seconds"
+        ],
+        "title": "MEG decay"
+    },
+    {
+        "code": "45",
+        "notes": [
+            "0-1 seconds"
+        ],
+        "title": "MEG sustain"
+    },
+    {
+        "code": "46",
+        "notes": [
+            "0-4 seconds"
+        ],
+        "title": "MEG release"
+    },
+    {
+        "code": "47",
+        "notes": [
+            "No sync: 0-63 for 0-32Hz free; 64-71 for root/8; 72-79 for root/4; 80-87 for root/2; 88-95 for root; 96-13 for root*1.5; 104-111 for root*2; 112-119 for root*2.5; 120*127 for root*3. Sync: 0-7 for 1/16; 8-15 for 1/8; 16-23 for 1/4; 24-31 for 1/2; 32-39 for 1; 40-47 for 5/4; 48-55 for 2; 56-63 for 4 (cycles per beat)"
+        ],
+        "title": "LFO2 rate"
+    },
+    {
+        "code": "48",
+        "title": "LFO2 depth",
+        "type": "int"
+    },
+    {
+        "code": "49",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "MEG amount",
+        "type": "list"
+    },
+    {
+        "code": "50",
+        "notes": [
+            "0-14 for sine; 15-31 for iSine; 32-47 for tri; 48-63 for iTri; 64-79 for ramp up; 80-95 for ramp down; 96-120 for square; 121-127 for iSquare"
+        ],
+        "title": "LFO2 shape"
+    },
+    {
+        "code": "51",
+        "title": "AEG amount",
+        "type": "int"
+    },
+    {
+        "code": "52",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "LFO1 MIDI sync"
+    },
+    {
+        "code": "53",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Ring mod"
+    },
+    {
+        "code": "54",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "LFO2 MIDI sync"
+    },
+    {
+        "code": "55",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Delay MIDI sync"
+    },
+    {
+        "code": "56",
+        "notes": [
+            "0-41 for retrig; 42-83 for free; 84-127 for single"
+        ],
+        "title": "LFO1 mode"
+    },
+    {
+        "code": "57",
+        "notes": [
+            "0-41 for retrig; 42-83 for free; 84-127 for single"
+        ],
+        "title": "LFO2 mode"
+    },
+    {
+        "code": "58",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Arp status"
+    },
+    {
+        "code": "59",
+        "notes": [
+            "0-31 for 1 oct; 32-63 for 2 oct; 64-95 for 3 oct; 96-127 for 4 oct"
+        ],
+        "title": "Arp octave"
+    },
+    {
+        "code": "60",
+        "notes": [
+            "0-20 for forwards; 21-41 for backwards; 42-62 for pendulum; 63-83 for note forwards; 84-104 for note backwards; 105-127 for note pendulum"
+        ],
+        "title": "Arp direction"
+    },
+    {
+        "code": "61",
+        "notes": [
+            "Value / 16 = 1/32nd 1/24th 1/16th 1/12th 1/8th 1/6th 1/4th or 1/2"
+        ],
+        "title": "Arp division"
+    },
+    {
+        "code": "62",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Velo depth",
+        "type": "list"
+    },
+    {
+        "code": "63",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Note depth",
+        "type": "list"
+    },
+    {
+        "code": "64",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Sustain pedal"
+    },
+    {
+        "code": "65",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Aftertouch depth",
+        "type": "list"
+    },
+    {
+        "code": "66",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Ext depth",
+        "type": "list"
+    },
+    {
+        "code": "67",
+        "notes": [
+            "0-31 for 1 bar; 32-63 for 2 bars; 64-95 for 4 bars; 96-127 for 8 bars"
+        ],
+        "title": "Sequence length"
+    },
+    {
+        "code": "70",
+        "notes": [
+            "0-63 for off; 64-127 for on"
+        ],
+        "title": "Sequence hold"
+    },
+    {
+        "code": "71",
+        "notes": [
+            "0 to set loop stop point; 127 to set loop start point"
+        ],
+        "title": "Sequence loop"
+    },
+    {
+        "code": "75",
+        "notes": [
+            "From -24 to +36 sent as (value + 24) * 2"
+        ],
+        "title": "Transpose"
+    },
+    {
+        "code": "78",
+        "title": "Swing",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "notes": [
+            "CC number of new destination"
+        ],
+        "title": "Anim 1 cc"
+    },
+    {
+        "code": "81",
+        "notes": [
+            "CC number of new destination"
+        ],
+        "title": "Anim 2 cc"
+    },
+    {
+        "code": "82",
+        "notes": [
+            "CC number of new destination"
+        ],
+        "title": "Anim 3 cc"
+    },
+    {
+        "code": "83",
+        "notes": [
+            "CC number of new destination"
+        ],
+        "title": "Anim 4 cc"
+    },
+    {
+        "code": "84",
+        "notes": [
+            "0-4 seconds"
+        ],
+        "title": "All envelope attack"
+    },
+    {
+        "code": "85",
+        "notes": [
+            "0-2 seconds"
+        ],
+        "title": "All envelope decay"
+    },
+    {
+        "code": "86",
+        "notes": [
+            "0-1 seconds"
+        ],
+        "title": "All envelope sustain"
+    },
+    {
+        "code": "87",
+        "notes": [
+            "0-4 seconds"
+        ],
+        "title": "All envelope release"
+    },
+    {
+        "code": "88",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod slot 1 depth",
+        "type": "list"
+    },
+    {
+        "code": "89",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod slot 2 depth",
+        "type": "list"
+    },
+    {
+        "code": "90",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod slot 3 depth",
+        "type": "list"
+    },
+    {
+        "code": "91",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod slot 4 depth",
+        "type": "list"
+    },
+    {
+        "code": "92",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod slot 5 depth",
+        "type": "list"
+    },
+    {
+        "code": "93",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod slot 6 depth",
+        "type": "list"
+    },
+    {
+        "code": "94",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod slot 7 depth",
+        "type": "list"
+    },
+    {
+        "code": "95",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod slot 8 depth",
+        "type": "list"
+    },
+    {
+        "code": "96",
+        "list": [
+            "53",
+            "63",
+            "73"
+        ],
+        "title": "Mod wheel depth",
+        "type": "list"
+    },
+    {
+        "code": "101",
+        "title": "Mod slot 1 source",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "Mod slot 2 source",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "Mod slot 3 source",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "title": "Mod slot 4 source",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "Mod slot 5 source",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "title": "Mod slot 6 source",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "title": "Mod slot 7 source",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "title": "Mod slot 8 source",
+        "type": "int"
+    },
+    {
+        "code": "111",
+        "notes": [
+            "Listed as CC 101 in the manual"
+        ],
+        "title": "Mod slot 1 dest"
+    },
+    {
+        "code": "112",
+        "notes": [
+            "Listed as CC 102 in the manual"
+        ],
+        "title": "Mod slot 2 dest"
+    },
+    {
+        "code": "113",
+        "notes": [
+            "Listed as CC 103 in the manual"
+        ],
+        "title": "Mod slot 3 dest"
+    },
+    {
+        "code": "114",
+        "notes": [
+            "Listed as CC 104 in the manual"
+        ],
+        "title": "Mod slot 4 dest"
+    },
+    {
+        "code": "115",
+        "notes": [
+            "Listed as CC 105 in the manual"
+        ],
+        "title": "Mod slot 5 dest"
+    },
+    {
+        "code": "116",
+        "notes": [
+            "Listed as CC 106 in the manual"
+        ],
+        "title": "Mod slot 6 dest"
+    },
+    {
+        "code": "117",
+        "notes": [
+            "Listed as CC 107 in the manual"
+        ],
+        "title": "Mod slot 7 dest"
+    },
+    {
+        "code": "118",
+        "notes": [
+            "Listed as CC 108 in the manual"
+        ],
+        "title": "Mod slot 8 dest"
+    },
+    {
+        "code": "121",
+        "title": "Randomise patch",
+        "type": "int"
+    }
+]

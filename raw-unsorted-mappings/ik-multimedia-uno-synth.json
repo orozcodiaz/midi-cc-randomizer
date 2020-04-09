@@ -1,0 +1,377 @@
+[
+    {
+        "code": "1",
+        "title": "Modulation wheel",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Glide time",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "VCA level",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "Swing",
+        "type": "int"
+    },
+    {
+        "code": "64",
+        "title": "Sustain (hold)",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "title": "Glide on/off",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "title": "Vibrato on/off",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "title": "Wah on/off",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "Tremolo on/off",
+        "type": "int"
+    },
+    {
+        "code": "89",
+        "title": "Dive on/off",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "title": "Dive range",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Scoop on/off",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "Scoop range",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Mod wheel to LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "94",
+        "title": "Mod wheel to vibrato",
+        "type": "int"
+    },
+    {
+        "code": "95",
+        "title": "Mod wheel to wah",
+        "type": "int"
+    },
+    {
+        "code": "96",
+        "title": "Mod wheel to tremelo",
+        "type": "int"
+    },
+    {
+        "code": "97",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Mod wheel to filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "101",
+        "title": "Pitch bend range",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "Velocity to VCA amount",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Velocity to filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "title": "Velocity to filter env amount",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "Velocity to LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff keytrack",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Delay mix",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "Delay time",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "OSC 1 level",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "OSC 2 level",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "OSC 1 wave",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "OSC 2 wave",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "OSC 1 tune",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "OSC 2 tune",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Amp attack",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Amp decay",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "Amp sustain",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Amp release",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Filter mode",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Filter resonance",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Filter drive",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "Filter env amount",
+        "type": "int"
+    },
+    {
+        "code": "44",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter attack",
+        "type": "int"
+    },
+    {
+        "code": "45",
+        "title": "Filter decay",
+        "type": "int"
+    },
+    {
+        "code": "46",
+        "title": "Filter sustain",
+        "type": "int"
+    },
+    {
+        "code": "47",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Filter release",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "title": "Filter env to OSC 1 PWM",
+        "type": "int"
+    },
+    {
+        "code": "49",
+        "title": "Filter env to OSC 2 PWM",
+        "type": "int"
+    },
+    {
+        "code": "50",
+        "title": "Filter env to OSC 1 wave",
+        "type": "int"
+    },
+    {
+        "code": "51",
+        "title": "Filter env to OSC 2 wave",
+        "type": "int"
+    },
+    {
+        "code": "66",
+        "title": "LFO wave",
+        "type": "int"
+    },
+    {
+        "code": "67",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "68",
+        "title": "LFO to pitch",
+        "type": "int"
+    },
+    {
+        "code": "69",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "LFO to filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "title": "LFO to tremelo",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "LFO to wah",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "title": "LFO to vibr",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "title": "LFO to OSC 1 PWM",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "title": "LFO to OSC 2 PWM",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "LFO to OSC 1 waveform",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "title": "LFO to OSC 2 waveform",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Arpeggiator on/off",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Arpeggiator direction",
+        "type": "int"
+    },
+    {
+        "code": "84",
+        "title": "Arpeggiator range",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "title": "Arpeggiator and seq gate time",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "Seq direction",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "Seq range",
+        "type": "int"
+    }
+]

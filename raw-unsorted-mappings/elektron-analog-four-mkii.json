@@ -1,0 +1,1192 @@
+[
+    {
+        "code": "3",
+        "title": "Performance parameter A",
+        "type": "int"
+    },
+    {
+        "code": "4",
+        "title": "Performance parameter B",
+        "type": "int"
+    },
+    {
+        "code": "8",
+        "title": "Performance parameter C",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "Performance parameter D",
+        "type": "int"
+    },
+    {
+        "code": "11",
+        "title": "Performance parameter E",
+        "type": "int"
+    },
+    {
+        "code": "64",
+        "title": "Performance parameter F",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "title": "Performance parameter G",
+        "type": "int"
+    },
+    {
+        "code": "66",
+        "title": "Performance parameter H",
+        "type": "int"
+    },
+    {
+        "code": "67",
+        "title": "Performance parameter I",
+        "type": "int"
+    },
+    {
+        "code": "68",
+        "title": "Performance parameter J",
+        "type": "int"
+    },
+    {
+        "code": "1",
+        "title": "Modwheel",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "title": "Breath controller",
+        "type": "int"
+    },
+    {
+        "code": "95",
+        "title": "Track level",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "OSC1 Pitch",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "OSC1 Detune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "OSC1 Keytracking",
+        "type": "int"
+    },
+    {
+        "code": "69",
+        "title": "OSC1 Level",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "title": "OSC1 Waveform",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "OSC1 Sub oscillator",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "title": "OSC1 Pulsewidth",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "title": "OSC1 PWM speed",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "title": "OSC1 PWM depth",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Noise S&H",
+        "type": "int"
+    },
+    {
+        "code": "76",
+        "title": "Noise fade",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "OSC2 Pitch",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "OSC2 Detune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "OSC2 Keytracking",
+        "type": "int"
+    },
+    {
+        "code": "78",
+        "title": "OSC2 Level",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "OSC2 Waveform",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "OSC2 Sub oscillator",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "OSC2 Pulsewidth",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "OSC2 PWM speed",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "OSC2 PWM depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "OSC1 AM",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Sync mode",
+        "type": "int"
+    },
+    {
+        "code": "84",
+        "title": "Sync amount",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "title": "Bend amount",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Slide time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "OSC2 AM",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Note sync",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Vibrato fade",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "Vibrato speed",
+        "type": "int"
+    },
+    {
+        "code": "88",
+        "title": "Vibrato depth",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Synth filter 1 frequency",
+        "type": "int"
+    },
+    {
+        "code": "89",
+        "title": "Synth filter 1 resonance",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth filter overdrive",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth filter 1 keytracking",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "Synth filter 1 envelope amount",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Synth filter 2 frequency",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "title": "Synth filter 2 resonance",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth filter 2 type",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth filter 2 keytracking",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "Synth filter 2 envelope amount",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Synth amp envA attack time",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "Synth amp envA decay time",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "title": "Synth amp envA sustain level",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Synth amp envA release time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth amp envA shape",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Synth amp chorus send level",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "Synth amp delay send level",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Synth amp reverb send level",
+        "type": "int"
+    },
+    {
+        "code": "10",
+        "title": "Synth amp pan",
+        "type": "int"
+    },
+    {
+        "code": "7",
+        "title": "Synth amp volume",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Synth envF attack time",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "title": "Synth envF decay time",
+        "type": "int"
+    },
+    {
+        "code": "110",
+        "title": "Synth envF sustain level",
+        "type": "int"
+    },
+    {
+        "code": "111",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Synth envF release time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth envF env shape",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth envF gate length",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth envF destination A",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "Synth envF depth A",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth envF destination B",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Synth envF depth B",
+        "type": "int"
+    },
+    {
+        "code": "112",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Synth env2 attack time",
+        "type": "int"
+    },
+    {
+        "code": "113",
+        "title": "Synth env2 decay time",
+        "type": "int"
+    },
+    {
+        "code": "114",
+        "title": "Synth env2 sustain level",
+        "type": "int"
+    },
+    {
+        "code": "115",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Synth env2 release time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth env2 env shape",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth env2 gate length",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth env2 destination A",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Synth env2 depth A",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth env2 destination B",
+        "type": "int"
+    },
+    {
+        "code": "2",
+        "title": "Synth env2 depth B",
+        "type": "int"
+    },
+    {
+        "code": "116",
+        "title": "Synth LFO1 speed",
+        "type": "int"
+    },
+    {
+        "code": "117",
+        "title": "Synth LFO1 speed multiplier",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO1 fade",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO1 start phase",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO1 mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO1 waveform",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO1 destination A",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Synth LFO1 depth A",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO1 destination B",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Synth LFO1 depth B",
+        "type": "int"
+    },
+    {
+        "code": "118",
+        "title": "Synth LFO2 speed",
+        "type": "int"
+    },
+    {
+        "code": "119",
+        "title": "Synth LFO2 speed multiplier",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO2 fade",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO2 start phase",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO2 mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO2 waveform",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO2 destination A",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "Synth LFO2 depth A",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Synth LFO2 destination B",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Synth LFO2 depth B",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch1 chorus send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch1 delay send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch1 reverb send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch1 level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch1 pan",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch2 chorus send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch2 delay send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch2 reverb send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch2 pan",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "Ext in ch2 level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus predelay",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus speed",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus width",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus feedback",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus HP filter",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus LP filter",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus delay send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus reverb send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track chorus send level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay width",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay feedback",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay HP filter",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay LP filter",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay overdrive",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay reverb send",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track delay send level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track reverb predelay",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track reverb decay time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track reverb shelving frequency",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track reverb shelving gain",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track reverb HP filter",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track reverb LP filter",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track reverb send level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 speed",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 speed multiplier",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 fade",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 start phase",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 waveform",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 destination 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 depth 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 destination 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO1 depth 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 speed",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 speed multiplier",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 fade",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 start phase",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 waveform",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 destination 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 depth 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 destination 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "FX track LFO2 depth 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV A coarse tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV A fine tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV A value",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV A clock",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV A source",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV A bend depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV A note slide time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV B coarse tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV B fine tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV B value",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV B clock",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV B source",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV B bend depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV B note slide time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV C coarse tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV C fine tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV C value",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV C clock",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV C source",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV C bend depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV C note slide time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV D coarse tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV D fine tune",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV D value",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV D clock",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV D source",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV D bend depth",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV D note slide time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "CV track env1 attack time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env1 decay time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env1 sustain level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "CV track env1 release time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env1 env shape",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env1 gate length",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env1 destination 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env1 depth 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env1 destination 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env1 depth 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "CV track env2 attack time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env2 decay time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env2 sustain level",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "CV track env2 release time",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env2 env shape",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env2 gate length",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env2 destination 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env2 depth 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env2 destination 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track env2 depth 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 speed",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 speed multiplier",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 fade",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 start phase",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 waveform",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 destination 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 depth 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 destination 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO1 depth 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 speed",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 speed multiplier",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 fade",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 start phase",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 mode",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 waveform",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 destination 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 depth 1",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 destination 2",
+        "type": "int"
+    },
+    {
+        "code": "",
+        "title": "CV track LFO2 depth 2",
+        "type": "int"
+    }
+]

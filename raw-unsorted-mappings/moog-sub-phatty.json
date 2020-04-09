@@ -1,0 +1,438 @@
+[
+    {
+        "code": "28",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Amplifier EG attack",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Amplifier EG decay",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "Amplifier EG sustain",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Amplifier EG release",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter EG attack",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Filter EG decay",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Filter EG sustain",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Filter EG release",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "VCO 1 level",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "VCO 2 level",
+        "type": "int"
+    },
+    {
+        "code": "8",
+        "title": "Noise level",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "VCO 1 sub level",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "VCO 1 wave",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "VCO 2 wave",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "VCO 2 frequency",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "VCO 2 beat frequency",
+        "type": "int"
+    },
+    {
+        "code": "77",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "VCO 2 hard sync"
+    },
+    {
+        "code": "81",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "VCO gate reset"
+    },
+    {
+        "code": "19",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff frequency",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Filter resonance",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Filter KB tracking amount",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Filter EG amount",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Multidrive amount",
+        "type": "int"
+    },
+    {
+        "code": "110",
+        "title": "Filter EG velocity to amplitude",
+        "type": "int"
+    },
+    {
+        "code": "92",
+        "title": "Amplifier EG velocity to amplitude",
+        "type": "int"
+    },
+    {
+        "code": "111",
+        "notes": [
+            "0: global; 32: low note; 64: high note; 96: last note"
+        ],
+        "title": "Note priority"
+    },
+    {
+        "code": "88",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Release on/off"
+    },
+    {
+        "code": "71",
+        "notes": [
+            "0: triangle LFO; 16: square LFO; 32: saw LFO; 48: ramp LFO; 64: S&H; 80: filter envelope"
+        ],
+        "title": "Modulation source"
+    },
+    {
+        "code": "3",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "LFO MIDI sync"
+    },
+    {
+        "code": "93",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "LFO gate reset"
+    },
+    {
+        "code": "2",
+        "title": "Filter mod amount",
+        "type": "int"
+    },
+    {
+        "code": "4",
+        "title": "Pitch mod amount",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "Wave mod amount",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "title": "Pitch bend up",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "title": "Pitch bend down",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Glide on/off"
+    },
+    {
+        "code": "94",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Glide legato"
+    },
+    {
+        "code": "5",
+        "title": "Glide rate",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "notes": [
+            "0: linear constant rate; 43: linear constant time; 85: exponential"
+        ],
+        "title": "Glide type"
+    },
+    {
+        "code": "78",
+        "title": "LFO KB tracking amount",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Amplifier EG reset"
+    },
+    {
+        "code": "82",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Filter EG reset"
+    },
+    {
+        "code": "7",
+        "title": "Output level",
+        "type": "int"
+    },
+    {
+        "code": "89",
+        "notes": [
+            "0: -2 oct; 16: -1 oct; 32: +0 oct; 48: +1 oct; 64: +2 oct"
+        ],
+        "title": "Keyboard octave"
+    },
+    {
+        "code": "116",
+        "title": "External input level",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "title": "Amplifier EG delay",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "title": "Amplifier EG hold",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "Filter EG delay",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "Filter EG hold",
+        "type": "int"
+    },
+    {
+        "code": "70",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Pitch mod, oscillator 2 only"
+    },
+    {
+        "code": "1",
+        "title": "Modulation wheel",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "notes": [
+            "0: osc 1 only; 42: osc 2 only; 85: both osc 1 and 2"
+        ],
+        "title": "Wave mod destination"
+    },
+    {
+        "code": "74",
+        "notes": [
+            "16: 1'",
+            " 32: 8'",
+            " 48: 4'",
+            " 64: 2'"
+        ],
+        "title": "VCO 1 octave"
+    },
+    {
+        "code": "75",
+        "notes": [
+            "16: 1'",
+            " 32: 8'",
+            " 48: 4'",
+            " 64: 2'"
+        ],
+        "title": "VCO 2 octave"
+    },
+    {
+        "code": "109",
+        "notes": [
+            "0: 1 pole; 32: 2 poles; 64: 3 poles; 94: 4 poles"
+        ],
+        "title": "Filter poles"
+    },
+    {
+        "code": "76",
+        "notes": [
+            "0: low (0.01Hz - 10Hz); 43: mid (0.1Hz - 100Hz); 85: high (1Hz - 1kHz)"
+        ],
+        "title": "LFO range"
+    },
+    {
+        "code": "68",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Legato"
+    },
+    {
+        "code": "119",
+        "notes": [
+            "0: -12 semitones; 1: -11 semitones … 12: +0 semitones … 24: +12 semitones"
+        ],
+        "title": "Keyboard transpose"
+    },
+    {
+        "code": "73",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Gated glide"
+    },
+    {
+        "code": "112",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Filter EG repeat"
+    },
+    {
+        "code": "86",
+        "title": "Filter EG velocity to time",
+        "type": "int"
+    },
+    {
+        "code": "79",
+        "title": "Filter EG KB amount",
+        "type": "int"
+    },
+    {
+        "code": "90",
+        "notes": [
+            "0: gate on; 32: keys only; 64: gate only; 96: keys or gate input"
+        ],
+        "title": "Filter EG gate source"
+    },
+    {
+        "code": "113",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Amplifier EG repeat"
+    },
+    {
+        "code": "87",
+        "title": "Amplifier EG velocity to time",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Amplifier EG KB amount",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "notes": [
+            "0: gate on; 32: keys only; 64: gate only; 96: keys or gate input"
+        ],
+        "title": "Volume EG gate source"
+    },
+    {
+        "code": "114",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Filter EG trigger mode"
+    },
+    {
+        "code": "115",
+        "notes": [
+            "0: off; 64: on"
+        ],
+        "title": "Amplifier EG trigger mode"
+    }
+]

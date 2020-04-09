@@ -1,0 +1,304 @@
+[
+    {
+        "code": "5",
+        "title": "Control glide",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "Control glide type",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "Control WHL",
+        "type": "int"
+    },
+    {
+        "code": "112",
+        "title": "Octave shift",
+        "type": "int"
+    },
+    {
+        "code": "113",
+        "title": "Transpose ",
+        "type": "int"
+    },
+    {
+        "code": "114",
+        "title": "Transpose SW",
+        "type": "int"
+    },
+    {
+        "code": "115",
+        "title": "Patch volume",
+        "type": "int"
+    },
+    {
+        "code": "80",
+        "title": "Mod sens",
+        "type": "int"
+    },
+    {
+        "code": "81",
+        "title": "Dynamics",
+        "type": "int"
+    },
+    {
+        "code": "84",
+        "title": "Aftertouch sensitivity 1",
+        "type": "int"
+    },
+    {
+        "code": "85",
+        "title": "Aftertouch sensitivity 2",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "Bend range",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "Xmod 02FLT",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "Xmod 03TO",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "Xmod 03PW",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "Oscillator 1 range",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "Oscillator 1 waveform",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "Oscillator 1 fine",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "Oscillator 1 envelope",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "Oscillator 2 range",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "Oscillator 2 waveform",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "Oscillator 2 fine",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "Oscillator 3 range",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "Oscillator 3 waveform",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "Oscillator sync",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "title": "Oscillator keyboard",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "title": "Oscillator xmod to mod wheel",
+        "type": "int"
+    },
+    {
+        "code": "48",
+        "title": "Oscillator 1 mix",
+        "type": "int"
+    },
+    {
+        "code": "4",
+        "title": "Oscillator 2 mix",
+        "type": "int"
+    },
+    {
+        "code": "50",
+        "title": "Oscillator 3 mix",
+        "type": "int"
+    },
+    {
+        "code": "41",
+        "title": "Noise mix",
+        "type": "int"
+    },
+    {
+        "code": "51",
+        "title": "Mix feedback",
+        "type": "int"
+    },
+    {
+        "code": "47",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter 1 attack",
+        "type": "int"
+    },
+    {
+        "code": "53",
+        "title": "Filter 1 sustain",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Filter 1 decay",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Filter 2 attack",
+        "type": "int"
+    },
+    {
+        "code": "56",
+        "title": "Filter 2 sustain",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Filter 2 decay",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "Filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "57",
+        "title": "Filter keytrack 13",
+        "type": "int"
+    },
+    {
+        "code": "58",
+        "title": "Filter keytrack 23",
+        "type": "int"
+    },
+    {
+        "code": "59",
+        "title": "Filter contour",
+        "type": "int"
+    },
+    {
+        "code": "60",
+        "title": "Filter MTRIG",
+        "type": "int"
+    },
+    {
+        "code": "61",
+        "title": "Filter normal/invert",
+        "type": "int"
+    },
+    {
+        "code": "62",
+        "title": "Filter REL",
+        "type": "int"
+    },
+    {
+        "code": "63",
+        "title": "Filter gate/LFO",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "Filter emphasis",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Delay time",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Delay regen",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Delay amount",
+        "type": "int"
+    },
+    {
+        "code": "102",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "103",
+        "title": "LFO oscillator",
+        "type": "int"
+    },
+    {
+        "code": "104",
+        "title": "LFO wave",
+        "type": "int"
+    },
+    {
+        "code": "105",
+        "title": "LFO filter",
+        "type": "int"
+    },
+    {
+        "code": "106",
+        "title": "LFO modwheel oscillator SW",
+        "type": "int"
+    },
+    {
+        "code": "107",
+        "title": "LFO modwheel FLT SW",
+        "type": "int"
+    },
+    {
+        "code": "108",
+        "title": "LFO mode SW",
+        "type": "int"
+    },
+    {
+        "code": "109",
+        "title": "LFO synch SW",
+        "type": "int"
+    }
+]

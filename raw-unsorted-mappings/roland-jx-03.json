@@ -1,0 +1,230 @@
+[
+    {
+        "code": "1",
+        "title": "Modulation",
+        "type": "int"
+    },
+    {
+        "code": "3",
+        "title": "LFO rate",
+        "type": "int"
+    },
+    {
+        "code": "5",
+        "title": "Portamento time",
+        "type": "int"
+    },
+    {
+        "code": "9",
+        "title": "LFO delay time",
+        "type": "int"
+    },
+    {
+        "code": "11",
+        "title": "Expression pedal",
+        "type": "int"
+    },
+    {
+        "code": "12",
+        "title": "LFO wave form",
+        "type": "int"
+    },
+    {
+        "code": "13",
+        "title": "DCO 1 range",
+        "type": "int"
+    },
+    {
+        "code": "14",
+        "title": "DCO 1 wave form",
+        "type": "int"
+    },
+    {
+        "code": "15",
+        "title": "DCO 1 frequency modulation LFO SW",
+        "type": "int"
+    },
+    {
+        "code": "16",
+        "title": "DCO 1 frequency modulation envelope SW",
+        "type": "int"
+    },
+    {
+        "code": "17",
+        "title": "DCO 2 range",
+        "type": "int"
+    },
+    {
+        "code": "18",
+        "title": "DCO 2 wave form",
+        "type": "int"
+    },
+    {
+        "code": "19",
+        "title": "DCO 2 tune",
+        "type": "int"
+    },
+    {
+        "code": "20",
+        "title": "DCO 2 tfine tune",
+        "type": "int"
+    },
+    {
+        "code": "21",
+        "title": "DCO 2 cross mod sel",
+        "type": "int"
+    },
+    {
+        "code": "22",
+        "title": "DCO 2 frequency modulation LFO SW",
+        "type": "int"
+    },
+    {
+        "code": "23",
+        "title": "DCO 2 frequency modulation envelope SW",
+        "type": "int"
+    },
+    {
+        "code": "24",
+        "title": "DCO LFO depth",
+        "type": "int"
+    },
+    {
+        "code": "25",
+        "title": "DCO envelope depth",
+        "type": "int"
+    },
+    {
+        "code": "26",
+        "title": "DCO envelope polarity",
+        "type": "int"
+    },
+    {
+        "code": "27",
+        "title": "VCF source mix",
+        "type": "int"
+    },
+    {
+        "code": "28",
+        "title": "VCF LFO modulation depth",
+        "type": "int"
+    },
+    {
+        "code": "29",
+        "title": "VCF pitch follow",
+        "type": "int"
+    },
+    {
+        "code": "30",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "VCF hi-pass filter cutoff",
+        "type": "int"
+    },
+    {
+        "code": "31",
+        "title": "VCF envelope modulation depth",
+        "type": "int"
+    },
+    {
+        "code": "35",
+        "title": "VCF envelope polarity SW",
+        "type": "int"
+    },
+    {
+        "code": "46",
+        "title": "VCA mode SW",
+        "type": "int"
+    },
+    {
+        "code": "47",
+        "title": "VCA level",
+        "type": "int"
+    },
+    {
+        "code": "73",
+        "list": [
+            "0",
+            "1"
+        ],
+        "title": "Envelope attack time",
+        "type": "int"
+    },
+    {
+        "code": "75",
+        "title": "Envelope decay time",
+        "type": "int"
+    },
+    {
+        "code": "53",
+        "title": "Envelope sustain level",
+        "type": "int"
+    },
+    {
+        "code": "72",
+        "list": [
+            "30",
+            "40",
+            "50",
+            "60"
+        ],
+        "title": "Envelope release time",
+        "type": "int"
+    },
+    {
+        "code": "64",
+        "title": "Hold",
+        "type": "int"
+    },
+    {
+        "code": "65",
+        "title": "Portamento time",
+        "type": "int"
+    },
+    {
+        "code": "71",
+        "title": "VCF resonance",
+        "type": "int"
+    },
+    {
+        "code": "74",
+        "list": [
+            "126",
+            "127"
+        ],
+        "title": "VCF cutoff",
+        "type": "int"
+    },
+    {
+        "code": "82",
+        "title": "Delay time",
+        "type": "int"
+    },
+    {
+        "code": "83",
+        "title": "Delay feedback",
+        "type": "int"
+    },
+    {
+        "code": "86",
+        "title": "Assign mode",
+        "type": "int"
+    },
+    {
+        "code": "87",
+        "title": "Bend range",
+        "type": "int"
+    },
+    {
+        "code": "91",
+        "title": "Delay level",
+        "type": "int"
+    },
+    {
+        "code": "93",
+        "title": "Chorus SW",
+        "type": "int"
+    }
+]

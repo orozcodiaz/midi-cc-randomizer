@@ -78,11 +78,6 @@
         "type": "int"
     },
     {
-        "code": "33",
-        "title": "NOISE LEVEL",
-        "type": "int"
-    },
-    {
         "code": "34",
         "title": "VCO 1 PITCH",
         "type": "int"
